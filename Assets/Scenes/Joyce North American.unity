@@ -2530,7 +2530,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.75
+  m_fontSize: 33.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8431,7 +8431,7 @@ GameObject:
   - component: {fileID: 1559719607}
   - component: {fileID: 1559719609}
   m_Layer: 0
-  m_Name: Owen - America North America
+  m_Name: joyce usa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8469,14 +8469,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.91237986, g: 0.9528302, b: 0.9481064, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2044465988786477142, guid: 480e1fa5392e04141aab1601b7e2e4f6, type: 3}
+  m_Sprite: {fileID: -5528894423819592419, guid: 3be698b923d1a4618bc31b1922b2187c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13130,9 +13130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ac3d03bc0875443ba4b36749940bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sizeX: 0
-  sizeY: 0
-  sizeZ: 0
 --- !u!1 &8950931407601594877
 GameObject:
   m_ObjectHideFlags: 0
