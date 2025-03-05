@@ -3985,7 +3985,7 @@ GameObject:
   - component: {fileID: 658178931}
   - component: {fileID: 658178933}
   m_Layer: 0
-  m_Name: Layer 7
+  m_Name: Greenland
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4030,7 +4030,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8073256872691816019, guid: 480e1fa5392e04141aab1601b7e2e4f6, type: 3}
+  m_Sprite: {fileID: 2680496520793424180, guid: 43cd6af197ceedd498a56f941e1f1ae9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4069,11 +4069,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.9811321, g: 0.55998576, b: 0.55998576, a: 1}
-    m_HighlightedColor: {r: 0.6273585, g: 1, b: 0.63578695, a: 1}
-    m_PressedColor: {r: 0.5518868, g: 0.65031093, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9583529, g: 0.5235849, b: 1, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 0.10980393, g: 0.8117647, b: 0.7938382, a: 1}
+    m_HighlightedColor: {r: 0.90943396, g: 0.588611, b: 0.2247846, a: 1}
+    m_PressedColor: {r: 0.85660374, g: 0.26991096, b: 0.8110783, a: 1}
+    m_SelectedColor: {r: 0.17744972, g: 0.7584905, b: 0.15885368, a: 1}
+    m_DisabledColor: {r: 0.17820571, g: 0.41625908, b: 0.9169811, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4091,19 +4091,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 658178931}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1578620176}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &664854489
 GameObject:
   m_ObjectHideFlags: 0
