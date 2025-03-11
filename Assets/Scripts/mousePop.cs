@@ -22,9 +22,11 @@ public class mousePop : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         Debug.Log("The cursor EXITED the selectable UI element.");
         gameObject.transform.localScale = new Vector3(sizeX, sizeY, sizeZ);
     }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("The cursor entered the selectable UI element.");
-        gameObject.transform.localScale = new Vector3(sizeX * -2.0f, sizeY * 2.5f, sizeZ * 2.0f);
+        //Debug.log("The cursor entered the selectable UI element");
+        gameObject.transform.localScale = new Vector3(sizeX * (-2.0f), sizeY * 0.5f, sizeZ * 3.0f);
+        gameObject.transform.localPosition = new Vector3(0, 0, 0);
     }
 }
