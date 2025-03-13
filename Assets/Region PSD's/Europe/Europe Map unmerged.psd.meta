@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Europe Map unmerged_0: -8635713228628871589
+      Europe Map unmerged_1: -3136505142414714062
+      Europe Map unmerged_2: 4249763480234419788
+      Europe Map unmerged_3: 7662895679246925792
+      Europe Map unmerged_4: 4929550894771415043
+      Europe Map unmerged_5: 8590809646269821549
+      Europe Map unmerged_6: 1184761680428890631
+      Europe Map unmerged_7: -6453077580333192739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
