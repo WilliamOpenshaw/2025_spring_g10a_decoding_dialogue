@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      V+S, Africa Unmerged_0: 6668926308395825356
+      V+S, Africa Unmerged_1: 7356238978694861213
+      V+S, Africa Unmerged_2: 916771260476774427
+      V+S, Africa Unmerged_3: 7342811667751025643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

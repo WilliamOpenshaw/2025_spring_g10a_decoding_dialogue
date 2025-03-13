@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hans Europe Map_0: -1508398772023614823
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
