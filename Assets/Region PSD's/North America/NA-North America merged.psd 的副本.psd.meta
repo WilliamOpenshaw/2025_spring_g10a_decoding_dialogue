@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "NA-North America merged.psd \u7684\u526F\u672C_0": -1233750822476671322
+      "NA-North America merged.psd \u7684\u526F\u672C_1": -667866470163910420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

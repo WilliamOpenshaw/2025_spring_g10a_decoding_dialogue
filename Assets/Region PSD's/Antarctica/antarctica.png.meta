@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      antarctica_0: 1625371164344512020
+      antarctica_1: 5744673078345812030
+      antarctica_2: 5541929242019368669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
