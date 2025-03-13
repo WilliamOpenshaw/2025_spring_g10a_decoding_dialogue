@@ -4,7 +4,11 @@ using System.Collections;
 
 namespace TMPro.Examples
 {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> main
     public class Benchmark04 : MonoBehaviour
     {
 
@@ -45,7 +49,11 @@ namespace TMPro.Examples
                     //textMeshPro.anchor = AnchorPositions.Left;
                     textMeshPro.rectTransform.pivot = new Vector2(0, 0.5f);
 
+<<<<<<< HEAD
                     textMeshPro.textWrappingMode = TextWrappingModes.NoWrap;
+=======
+                    textMeshPro.enableWordWrapping = false;
+>>>>>>> main
                     textMeshPro.extraPadding = true;
                     textMeshPro.isOrthographic = true;
                     textMeshPro.fontSize = i;
@@ -65,7 +73,11 @@ namespace TMPro.Examples
                     //if (lineHeight > orthoSize * 2 * 0.9f) return;
 
                     go.transform.position = m_Transform.position + new Vector3(ratio * -orthoSize * 0.975f, orthoSize * 0.975f - lineHeight, 1);
+<<<<<<< HEAD
 
+=======
+                                       
+>>>>>>> main
                     TextMesh textMesh = go.AddComponent<TextMesh>();
                     textMesh.font = Resources.Load("Fonts/ARIAL", typeof(Font)) as Font;
                     textMesh.renderer.sharedMaterial = textMesh.font.material;

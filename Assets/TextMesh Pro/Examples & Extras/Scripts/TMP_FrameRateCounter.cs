@@ -4,7 +4,11 @@ using System.Collections;
 
 namespace TMPro.Examples
 {
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> main
     public class TMP_FrameRateCounter : MonoBehaviour
     {
         public float UpdateInterval = 5.0f;
@@ -43,7 +47,11 @@ namespace TMPro.Examples
             m_frameCounter_transform.SetParent(m_camera.transform);
             m_frameCounter_transform.localRotation = Quaternion.identity;
 
+<<<<<<< HEAD
             m_TextMeshPro.textWrappingMode = TextWrappingModes.NoWrap;
+=======
+            m_TextMeshPro.enableWordWrapping = false;
+>>>>>>> main
             m_TextMeshPro.fontSize = 24;
             //m_TextMeshPro.FontColor = new Color32(255, 255, 255, 128);
             //m_TextMeshPro.edgeWidth = .15f;
