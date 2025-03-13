@@ -37,7 +37,8 @@ public class mousePop : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         // Multiplies the x, y, and z scale value of the gameObject this script is attached to by 1.5
         // The number is written as " 1.5f " because it is a float, 
         // and needs to be written with an f attached to work properly  
-        gameObject.transform.localScale = new Vector3(sizeX * 1.5f, sizeY * 1.5f, sizeZ * 1.5f);
-        cube1.transform.localScale = new Vector3(sizeX * 1.5f, sizeY * 1.5f, sizeZ * 1.5f);
+        gameObject.transform.localScale = new Vector3(sizeX * 2.0f, sizeY * 2.0f, sizeZ * 2.0f);
+        gameObject.transform.localPosition = new Vector3(0, 0, 0);
+        //cube1.transform.localScale = new Vector3(sizeX * 1.5f, sizeY * 1.5f, sizeZ * 1.5f);
     }
 }
