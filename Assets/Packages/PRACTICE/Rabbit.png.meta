@@ -114,8 +114,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< Updated upstream:Assets/Packages/PRACTICE/Rabbit.png.meta
     nameFileIdTable: {}
   spritePackingTag: 
+=======
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      on light_0: -4417669971271039008
+  mipmapLimitGroupName: 
+>>>>>>> Stashed changes:Assets/Images/on light.png.meta
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 

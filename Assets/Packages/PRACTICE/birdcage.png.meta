@@ -114,8 +114,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< Updated upstream:Assets/Packages/PRACTICE/birdcage.png.meta
     nameFileIdTable: {}
   spritePackingTag: 
+=======
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      off light_0: 1135726969512320123
+  mipmapLimitGroupName: 
+>>>>>>> Stashed changes:Assets/Images/off light.png.meta
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
