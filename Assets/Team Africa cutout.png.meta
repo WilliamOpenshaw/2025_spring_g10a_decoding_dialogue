@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Team Africa cutout_0: 1805279078824239177
+      Team Africa cutout_1: -2667433467145280877
+      Team Africa cutout_2: 7714697658170252312
+      Team Africa cutout_3: -7760824577618563259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
