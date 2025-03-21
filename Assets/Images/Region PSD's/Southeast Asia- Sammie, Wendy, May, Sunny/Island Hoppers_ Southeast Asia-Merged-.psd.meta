@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: f404423ae48cf2e4f9d6e003993569fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5295516572535991361
+    second: Island Hoppers_ Southeast Asia-Merged-_0
+  - first:
+      213: 8775704552001066903
+    second: Island Hoppers_ Southeast Asia-Merged-_1
+  - first:
+      213: -632381668158827923
+    second: Island Hoppers_ Southeast Asia-Merged-_2
+  - first:
+      213: 4962934670741150430
+    second: Island Hoppers_ Southeast Asia-Merged-_3
+  - first:
+      213: 8742465404248834045
+    second: Island Hoppers_ Southeast Asia-Merged-_4
+  - first:
+      213: -764239880107665048
+    second: Island Hoppers_ Southeast Asia-Merged-_5
+  - first:
+      213: -8172907561817309667
+    second: Island Hoppers_ Southeast Asia-Merged-_6
+  - first:
+      213: -230951924188526073
+    second: Island Hoppers_ Southeast Asia-Merged-_7
+  - first:
+      213: 1278879108266013576
+    second: Island Hoppers_ Southeast Asia-Merged-_8
+  - first:
+      213: -4625452105851875373
+    second: Island Hoppers_ Southeast Asia-Merged-_9
+  - first:
+      213: -1694203954400181097
+    second: Island Hoppers_ Southeast Asia-Merged-_10
+  - first:
+      213: -2367267547907816282
+    second: Island Hoppers_ Southeast Asia-Merged-_11
+  - first:
+      213: -2302807752254975055
+    second: Island Hoppers_ Southeast Asia-Merged-_12
+  - first:
+      213: 4548439152791800328
+    second: Island Hoppers_ Southeast Asia-Merged-_13
+  - first:
+      213: -8465967969499622491
+    second: Island Hoppers_ Southeast Asia-Merged-_14
+  - first:
+      213: -757567342399542321
+    second: Island Hoppers_ Southeast Asia-Merged-_15
+  - first:
+      213: 8575640745517455806
+    second: Island Hoppers_ Southeast Asia-Merged-_16
+  - first:
+      213: 3985423030707604374
+    second: Island Hoppers_ Southeast Asia-Merged-_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_0
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 83
+        width: 585
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ca33014447d7940800000000000000
+      internalID: 5295516572535991361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_1
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 648
+        width: 115
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7975dcb5bc099c970800000000000000
+      internalID: 8775704552001066903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 630
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d629cea29345937f0800000000000000
+      internalID: -632381668158827923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_3
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 550
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda1ffcc9c2efd440800000000000000
+      internalID: 4962934670741150430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_4
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 620
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffb46137f9735970800000000000000
+      internalID: 8742465404248834045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_5
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 604
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869defec0efd465f0800000000000000
+      internalID: -764239880107665048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_6
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 532
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e76cbdfdff39e80800000000000000
+      internalID: -8172907561817309667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_7
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 563
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70acc86d27e7bccf0800000000000000
+      internalID: -230951924188526073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_8
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 575
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8833ddee5cd7fb110800000000000000
+      internalID: 1278879108266013576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 197
+        width: 341
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfcd1101d71fcfb0800000000000000
+      internalID: -4625452105851875373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_10
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 462
+        width: 124
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7944ae0da7afc78e0800000000000000
+      internalID: -1694203954400181097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 155
+        width: 175
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a405ae15b6c52fd0800000000000000
+      internalID: -2367267547907816282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_12
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 276
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b393d4dc88ca00e0800000000000000
+      internalID: -2302807752254975055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_13
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 74
+        width: 273
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a42a09f4d4f1f30800000000000000
+      internalID: 4548439152791800328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_14
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 205
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3d3228cf6d28a80800000000000000
+      internalID: -8465967969499622491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_15
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 205
+        width: 90
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcba6de04849c75f0800000000000000
+      internalID: -757567342399542321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_16
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 42
+        width: 175
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb91fe582dbc20770800000000000000
+      internalID: 8575640745517455806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Island Hoppers_ Southeast Asia-Merged-_17
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 43
+        width: 106
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bccf871211f4730800000000000000
+      internalID: 3985423030707604374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Island Hoppers_ Southeast Asia-Merged-_0: 5295516572535991361
+      Island Hoppers_ Southeast Asia-Merged-_1: 8775704552001066903
+      Island Hoppers_ Southeast Asia-Merged-_10: -1694203954400181097
+      Island Hoppers_ Southeast Asia-Merged-_11: -2367267547907816282
+      Island Hoppers_ Southeast Asia-Merged-_12: -2302807752254975055
+      Island Hoppers_ Southeast Asia-Merged-_13: 4548439152791800328
+      Island Hoppers_ Southeast Asia-Merged-_14: -8465967969499622491
+      Island Hoppers_ Southeast Asia-Merged-_15: -757567342399542321
+      Island Hoppers_ Southeast Asia-Merged-_16: 8575640745517455806
+      Island Hoppers_ Southeast Asia-Merged-_17: 3985423030707604374
+      Island Hoppers_ Southeast Asia-Merged-_2: -632381668158827923
+      Island Hoppers_ Southeast Asia-Merged-_3: 4962934670741150430
+      Island Hoppers_ Southeast Asia-Merged-_4: 8742465404248834045
+      Island Hoppers_ Southeast Asia-Merged-_5: -764239880107665048
+      Island Hoppers_ Southeast Asia-Merged-_6: -8172907561817309667
+      Island Hoppers_ Southeast Asia-Merged-_7: -230951924188526073
+      Island Hoppers_ Southeast Asia-Merged-_8: 1278879108266013576
+      Island Hoppers_ Southeast Asia-Merged-_9: -4625452105851875373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
