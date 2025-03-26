@@ -4,11 +4,7 @@ using System.Collections;
 
 namespace TMPro.Examples
 {
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> main
     public class SimpleScript : MonoBehaviour
     {
 
@@ -33,20 +29,12 @@ namespace TMPro.Examples
             // Assign Material to TextMesh Pro Component
             //m_textMeshPro.fontSharedMaterial = Resources.Load("Fonts & Materials/LiberationSans SDF - Bevel", typeof(Material)) as Material;
             //m_textMeshPro.fontSharedMaterial.EnableKeyword("BEVEL_ON");
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> main
             // Set various font settings.
             m_textMeshPro.fontSize = 48;
 
             m_textMeshPro.alignment = TextAlignmentOptions.Center;
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> main
             //m_textMeshPro.anchorDampening = true; // Has been deprecated but under consideration for re-implementation.
             //m_textMeshPro.enableAutoSizing = true;
 
@@ -54,11 +42,7 @@ namespace TMPro.Examples
             //m_textMeshPro.wordSpacing = 0.1f;
 
             //m_textMeshPro.enableCulling = true;
-<<<<<<< HEAD
             m_textMeshPro.textWrappingMode = TextWrappingModes.NoWrap;
-=======
-            m_textMeshPro.enableWordWrapping = false;
->>>>>>> main
 
             //textMeshPro.fontColor = new Color32(255, 255, 255, 255);
         }

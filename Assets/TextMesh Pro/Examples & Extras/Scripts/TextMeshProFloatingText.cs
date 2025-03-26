@@ -65,11 +65,7 @@ namespace TMPro.Examples
                 m_textMeshPro.fontSize = 24;
                 //m_textMeshPro.enableExtraPadding = true;
                 //m_textMeshPro.enableShadows = false;
-<<<<<<< HEAD
                 m_textMeshPro.fontFeatures.Clear();
-=======
-                m_textMeshPro.enableKerning = false;
->>>>>>> main
                 m_textMeshPro.text = string.Empty;
                 m_textMeshPro.isTextObjectScaleStatic = IsTextObjectScaleStatic;
 
