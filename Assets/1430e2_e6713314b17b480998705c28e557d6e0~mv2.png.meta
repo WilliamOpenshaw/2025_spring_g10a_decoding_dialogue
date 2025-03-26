@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 279c7241334884bcbafcaa2e2887a1a0
+guid: 30aa72a347eda4d1b9b0efa2edca0153
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5249095003013546172
-    second: middle east_0
+      213: 1668578952645896248
+    second: 1430e2_e6713314b17b480998705c28e557d6e0~mv2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: middle east_0
+      name: 1430e2_e6713314b17b480998705c28e557d6e0~mv2_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 42
-        width: 1693
-        height: 1039
+        x: 0
+        y: 0
+        width: 958
+        height: 866
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb086e6281888d840800000000000000
-      internalID: 5249095003013546172
+      spriteID: 838e62887bbf72710800000000000000
+      internalID: 1668578952645896248
       vertices: []
       indices: 
       edges: []
