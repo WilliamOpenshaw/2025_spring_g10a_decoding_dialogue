@@ -678,6 +678,9 @@ Animation:
   - {fileID: 7400000, guid: ed2f1df030db3e147987f6ceeffeb6de, type: 2}
   - {fileID: 7400000, guid: b7dc9d4a9ee549741adf6c2be5968702, type: 2}
   - {fileID: 7400000, guid: 743bd4a1e4754ce44b69cf863f72ef8b, type: 2}
+  - {fileID: 7400000, guid: 28b312cb56400443a8840652b8275cfb, type: 2}
+  - {fileID: 7400000, guid: 04aa992046bbd41d38922c28a4de15bb, type: 2}
+  - {fileID: 7400000, guid: ff09d069a502145ce878b8d35ff981c4, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -2751,7 +2754,7 @@ RectTransform:
   m_Children:
   - {fileID: 284661422}
   m_Father: {fileID: 682901984}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 52.021275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 21.159044}
   m_AnchorMin: {x: 0.18112993, y: 0.10341733}
   m_AnchorMax: {x: 0.8474935, y: 0.34516537}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -4238,7 +4241,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -5738,7 +5741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &682901984
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5754,10 +5757,10 @@ RectTransform:
   - {fileID: 1944684283}
   - {fileID: 339436396}
   m_Father: {fileID: 1345158848}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.560427}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.2796955}
   m_AnchorMin: {x: 0.083000004, y: 0.12011111}
   m_AnchorMax: {x: 0.91852087, y: 0.8861852}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -16}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682901985
@@ -8777,7 +8780,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -9250,7 +9253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.059753276, y: 0.10341733}
   m_AnchorMax: {x: 0.9341169, y: 0.6974174}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 27, y: -5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258862251
@@ -9283,8 +9286,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9939,7 +9942,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1379290201}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 81455258}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 81455260}
+        m_TargetAssemblyTypeName: UnityEngine.Animation, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7400000, guid: ff09d069a502145ce878b8d35ff981c4, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AnimationClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 81455258}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1379290201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11112,7 +11151,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -13001,7 +13040,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -14212,7 +14251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 16, y: -16}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2028537570
@@ -16744,7 +16783,7 @@ MonoBehaviour:
         m_MethodName: set_clip
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 7400000, guid: ed2f1df030db3e147987f6ceeffeb6de, type: 2}
+          m_ObjectArgument: {fileID: 7400000, guid: 28b312cb56400443a8840652b8275cfb, type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AnimationClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0

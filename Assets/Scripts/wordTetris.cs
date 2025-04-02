@@ -163,26 +163,26 @@ public class wordTetris : MonoBehaviour
 
         //this is the text that needs to change
         //The text here will appear in the pieces        
-        square0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 1"                    ;   //  Sentence 1
-        long0Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 2"                    ;   //  Sentence 2
-        zigzag0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 3 first half"         ;   //  Sentence 3 first half
-        zigzag0Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 3 second half"        ;   //  Sentence 3 second hal
-        square1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 4"                    ;   //  Sentence 4
-        long1Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 5"                    ;   //  Sentence 5        
-        zigzag1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 6 first half"         ;   //  Sentence 6 first half        
-        zigzag1Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 6 second half"        ;   //  Sentence 6 second half        
-        square2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 7"                    ;   //  Sentence 7
-        long2Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 8"                    ;   //  Sentence 8        
-        zigzag2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 9 first half"         ;   //  Sentence 9 first half
-        zigzag2Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 9 second half"        ;   //  Sentence 9 second half        
-        square3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 10"                   ;   //  Sentence 10        
-        long3Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 11"                   ;   //  Sentence 11        
-        zigzag3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 12 first half"        ;   //  Sentence 12 first half        
-        zigzag3Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 12 second half"       ;   //  Sentence 12 second half        
-        square4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 13"                   ;   //  Sentence 13
-        long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 14"                   ;   //  Sentence 14        
-        zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 15 first half"        ;   //  Sentence 15 first half        
-        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 15 second half"       ;   //  Sentence 15 second half 
+        square0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Exton"                    ;   //  Sentence 1
+        long0Sentence.GetComponent<TextMeshProUGUI>().text      =   "Zach"                    ;   //  Sentence 2
+        zigzag0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Samuel"         ;   //  Sentence 3 first half
+        zigzag0Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Jennifer"        ;   //  Sentence 3 second hal
+        square1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Raphael"                    ;   //  Sentence 4
+        long1Sentence.GetComponent<TextMeshProUGUI>().text      =   "Joyce"                    ;   //  Sentence 5        
+        zigzag1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sammie"         ;   //  Sentence 6 first half        
+        zigzag1Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sunny"        ;   //  Sentence 6 second half        
+        square2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Kim"                    ;   //  Sentence 7
+        long2Sentence.GetComponent<TextMeshProUGUI>().text      =   "Garreth"                    ;   //  Sentence 8        
+        zigzag2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Hans"         ;   //  Sentence 9 first half
+        zigzag2Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Otis"        ;   //  Sentence 9 second half        
+        square3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Plus"                   ;   //  Sentence 10        
+        long3Sentence.GetComponent<TextMeshProUGUI>().text      =   "Phoebe"                   ;   //  Sentence 11        
+        zigzag3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Esme"        ;   //  Sentence 12 first half        
+        zigzag3Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Vicent"       ;   //  Sentence 12 second half        
+        square4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Gavin"                   ;   //  Sentence 13
+        long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "Wendy"                   ;   //  Sentence 14        
+        zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "May"        ;   //  Sentence 15 first half        
+        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sanami"       ;   //  Sentence 15 second half 
 
         // this makes all the pieces turned off at the beginning
         square0.SetActive(false);
@@ -253,7 +253,7 @@ public class wordTetris : MonoBehaviour
             
             rect = shapes[choiceNumber].GetComponent<RectTransform>();
             //change it to 5 to make it move slower
-            rect.anchoredPosition = new Vector2(rect.anchoredPosition.x - 10,rect.anchoredPosition.y); 
+            rect.anchoredPosition = new Vector2(rect.anchoredPosition.x - 5,rect.anchoredPosition.y); 
         }
         if(Input.GetKeyDown(KeyCode.RightArrow))
         {
@@ -264,7 +264,7 @@ public class wordTetris : MonoBehaviour
             
             rect = shapes[choiceNumber].GetComponent<RectTransform>();
             //change it to 5 to make it move slower
-            rect.anchoredPosition = new Vector2(rect.anchoredPosition.x + 10,rect.anchoredPosition.y); 
+            rect.anchoredPosition = new Vector2(rect.anchoredPosition.x + 5,rect.anchoredPosition.y); 
         }
         // this is the spawn time of the next block
         // if you set it to 3, a piece will appear every 3 seconds
