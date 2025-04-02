@@ -1559,6 +1559,7 @@ GameObject:
   - component: {fileID: 349534368}
   - component: {fileID: 349534367}
   - component: {fileID: 349534369}
+  - component: {fileID: 349534370}
   m_Layer: 5
   m_Name: Middle East Image
   m_TagString: Untagged
@@ -1703,6 +1704,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &349534370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349534365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da8ad37292c62045acb95fc8fb6a0bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeX: 0
+  sizeY: 0
+  sizeZ: 0
 --- !u!1 &358054112
 GameObject:
   m_ObjectHideFlags: 0
