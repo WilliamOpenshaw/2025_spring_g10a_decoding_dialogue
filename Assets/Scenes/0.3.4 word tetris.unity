@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 21544546}
   m_Layer: 5
   m_Name: zigzag Sentence 1st Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1619,8 +1619,8 @@ GameObject:
   - component: {fileID: 200526328}
   - component: {fileID: 200526327}
   m_Layer: 5
-  m_Name: Square Senetence
-  m_TagString: Untagged
+  m_Name: Square Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2362,7 +2362,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0.0.16
+  m_text: 0.3.4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2634,8 +2634,8 @@ GameObject:
   - component: {fileID: 489776277}
   - component: {fileID: 489776276}
   m_Layer: 5
-  m_Name: Long Senetence
-  m_TagString: Untagged
+  m_Name: Long Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2845,8 +2845,8 @@ GameObject:
   - component: {fileID: 537756602}
   - component: {fileID: 537756601}
   m_Layer: 5
-  m_Name: Square Senetence
-  m_TagString: Untagged
+  m_Name: Square Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4293,7 +4293,7 @@ GameObject:
   - component: {fileID: 816820970}
   m_Layer: 5
   m_Name: zigzag Sentence 2nd Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4429,7 +4429,7 @@ GameObject:
   - component: {fileID: 821931806}
   m_Layer: 5
   m_Name: zigzag Sentence 2nd Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4565,7 +4565,7 @@ GameObject:
   - component: {fileID: 862167163}
   m_Layer: 5
   m_Name: zigzag Sentence 2nd Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4775,8 +4775,8 @@ GameObject:
   - component: {fileID: 906235184}
   - component: {fileID: 906235183}
   m_Layer: 5
-  m_Name: Long Senetence
-  m_TagString: Untagged
+  m_Name: Long Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5899,8 +5899,8 @@ GameObject:
   - component: {fileID: 1182343074}
   - component: {fileID: 1182343073}
   m_Layer: 5
-  m_Name: Long Senetence
-  m_TagString: Untagged
+  m_Name: Long Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6319,7 +6319,7 @@ GameObject:
   - component: {fileID: 1287683587}
   m_Layer: 5
   m_Name: zigzag Sentence 1st Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6737,8 +6737,8 @@ GameObject:
   - component: {fileID: 1336447277}
   - component: {fileID: 1336447276}
   m_Layer: 5
-  m_Name: Long Senetence
-  m_TagString: Untagged
+  m_Name: Long Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7288,7 +7288,7 @@ GameObject:
   - component: {fileID: 1449197543}
   m_Layer: 5
   m_Name: zigzag Sentence 1st Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7423,8 +7423,8 @@ GameObject:
   - component: {fileID: 1466722111}
   - component: {fileID: 1466722110}
   m_Layer: 5
-  m_Name: Square Senetence
-  m_TagString: Untagged
+  m_Name: Square Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7685,8 +7685,8 @@ GameObject:
   - component: {fileID: 1582262436}
   - component: {fileID: 1582262435}
   m_Layer: 5
-  m_Name: Square Senetence
-  m_TagString: Untagged
+  m_Name: Square Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7979,7 +7979,7 @@ GameObject:
   - component: {fileID: 1644245280}
   m_Layer: 5
   m_Name: zigzag Sentence 2nd Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8741,7 +8741,7 @@ GameObject:
   - component: {fileID: 1722172096}
   m_Layer: 5
   m_Name: zigzag Sentence 2nd Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9555,8 +9555,8 @@ GameObject:
   - component: {fileID: 1869923181}
   - component: {fileID: 1869923180}
   m_Layer: 5
-  m_Name: Long Senetence
-  m_TagString: Untagged
+  m_Name: Long Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9766,8 +9766,8 @@ GameObject:
   - component: {fileID: 1903277591}
   - component: {fileID: 1903277590}
   m_Layer: 5
-  m_Name: Square Senetence
-  m_TagString: Untagged
+  m_Name: Square Sentence
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9906,7 +9906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1918899167
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9960,26 +9960,26 @@ MonoBehaviour:
   square4: {fileID: 0}
   long4: {fileID: 0}
   zigzag4: {fileID: 0}
-  square0Sentence: {fileID: 1582262433}
-  long0Sentence: {fileID: 1336447274}
-  zigzag0Sentence: {fileID: 2060048395}
-  zigzag0Sentence2: {fileID: 816820968}
-  square1Sentence: {fileID: 537756599}
-  long1Sentence: {fileID: 489776274}
-  zigzag1Sentence: {fileID: 1449197541}
-  zigzag1Sentence2: {fileID: 1644245278}
-  square2Sentence: {fileID: 1466722108}
-  long2Sentence: {fileID: 906235181}
-  zigzag2Sentence: {fileID: 1287683585}
-  zigzag2Sentence2: {fileID: 821931804}
-  square3Sentence: {fileID: 1903277588}
-  long3Sentence: {fileID: 1869923178}
-  zigzag3Sentence: {fileID: 1930400766}
-  zigzag3Sentence2: {fileID: 1722172094}
-  square4Sentence: {fileID: 200526325}
-  long4Sentence: {fileID: 1182343071}
-  zigzag4Sentence: {fileID: 21544544}
-  zigzag4Sentence2: {fileID: 862167161}
+  square0Sentence: {fileID: 0}
+  long0Sentence: {fileID: 0}
+  zigzag0Sentence: {fileID: 0}
+  zigzag0Sentence2: {fileID: 0}
+  square1Sentence: {fileID: 0}
+  long1Sentence: {fileID: 0}
+  zigzag1Sentence: {fileID: 0}
+  zigzag1Sentence2: {fileID: 0}
+  square2Sentence: {fileID: 0}
+  long2Sentence: {fileID: 0}
+  zigzag2Sentence: {fileID: 0}
+  zigzag2Sentence2: {fileID: 0}
+  square3Sentence: {fileID: 0}
+  long3Sentence: {fileID: 0}
+  zigzag3Sentence: {fileID: 0}
+  zigzag3Sentence2: {fileID: 0}
+  square4Sentence: {fileID: 0}
+  long4Sentence: {fileID: 0}
+  zigzag4Sentence: {fileID: 0}
+  zigzag4Sentence2: {fileID: 0}
   background2: {fileID: 671330989}
   startPos: {x: 0, y: 0}
   choiceNumber: 0
@@ -9987,6 +9987,7 @@ MonoBehaviour:
   keepSpawning: 0
   tryNumber: 0
   shapes: []
+  sentences: []
   rect: {fileID: 0}
   xPositionCheck: 0
   shapeNumber: 0
@@ -10003,7 +10004,7 @@ GameObject:
   - component: {fileID: 1930400768}
   m_Layer: 5
   m_Name: zigzag Sentence 1st Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10696,7 +10697,7 @@ GameObject:
   - component: {fileID: 2060048397}
   m_Layer: 5
   m_Name: zigzag Sentence 1st Half Text
-  m_TagString: Untagged
+  m_TagString: Sentence
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

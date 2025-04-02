@@ -59,6 +59,8 @@ public class wordTetris : MonoBehaviour
 
     //list of shapes so we can call them by number instead of by name
     public GameObject[] shapes;
+    //list of sentences so we can call them by number instead of by name
+    public GameObject[] sentences;
 
     //to save the position controller for shapes
     //so our code lines are shorter and easier to read
@@ -75,6 +77,7 @@ public class wordTetris : MonoBehaviour
         // These set our shapes into a numbered list that we can easily use
         // to randomly call different shapes
         shapes = new GameObject[15];
+        sentences = new GameObject[20];
 
         shapes[0] = square0;
         shapes[1] = long0;
@@ -92,6 +95,8 @@ public class wordTetris : MonoBehaviour
         shapes[13] = long4;
         shapes[14] = zigzag4;
 
+        // find all shape gameobjects
+        shapeNumber = 0;
         foreach (Transform child in background2.transform)
         {     
             if(child.CompareTag("Piece"))
@@ -117,7 +122,44 @@ public class wordTetris : MonoBehaviour
         zigzag3     =   shapes[11];
         square4     =   shapes[12];
         long4       =   shapes[13];
-        zigzag4     =   shapes[14];
+        zigzag4     =   shapes[14]; 
+
+        // find all sentence gameobjects
+        shapeNumber = 0;
+        foreach (GameObject shape in shapes)
+        {     
+            foreach (Transform child in shape.transform)
+            {
+                if(child.CompareTag("Sentence"))
+                {
+                    Debug.Log(child.gameObject.name);
+                    sentences[shapeNumber] = child.gameObject;
+                    Debug.Log(sentences[shapeNumber].name);
+                    shapeNumber += 1;    
+                }    
+            }                
+        }    
+
+        square0Sentence    = sentences[0];
+        long0Sentence      = sentences[1];
+        zigzag0Sentence    = sentences[2];
+        zigzag0Sentence2   = sentences[3];
+        square1Sentence    = sentences[4];
+        long1Sentence      = sentences[5];
+        zigzag1Sentence    = sentences[6];
+        zigzag1Sentence2   = sentences[7];
+        square2Sentence    = sentences[8];
+        long2Sentence      = sentences[9];
+        zigzag2Sentence    = sentences[10];
+        zigzag2Sentence2   = sentences[11];
+        square3Sentence    = sentences[12];
+        long3Sentence      = sentences[13];
+        zigzag3Sentence    = sentences[14];
+        zigzag3Sentence2   = sentences[15];
+        square4Sentence    = sentences[16];
+        long4Sentence      = sentences[17];
+        zigzag4Sentence    = sentences[18];
+        zigzag4Sentence2   = sentences[19];       
 
         //this is the text that needs to change
         //The text here will appear in the pieces        
@@ -140,7 +182,7 @@ public class wordTetris : MonoBehaviour
         square4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 13"                   ;   //  Sentence 13
         long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 14"                   ;   //  Sentence 14        
         zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 15 first half"        ;   //  Sentence 15 first half        
-        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 15 second half"       ;   //  Sentence 15 second half
+        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 15 second half"       ;   //  Sentence 15 second half 
 
         // this makes all the pieces turned off at the beginning
         square0.SetActive(false);
