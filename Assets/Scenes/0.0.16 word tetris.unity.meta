@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 8aded85f28b49f4418dee72edd14769b
+<<<<<<<< HEAD:Assets/Scenes/Assignments/User Choice/jennifer user choice.unity.meta
+guid: 16138b9cb3aa8f94abc8d3cd06941950
+========
+guid: 4cf5f070015ee94449a8b98673ffdd26
+>>>>>>>> main:Assets/Scenes/0.0.16 word tetris.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
