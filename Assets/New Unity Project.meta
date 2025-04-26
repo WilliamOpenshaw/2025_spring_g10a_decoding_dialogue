@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: d2bb12de1e8d20a449d48f29f2e7e88b
+<<<<<<<< HEAD:Assets/New Unity Project.meta
+guid: 16df168a8a766604d933c8a717945305
+========
+guid: fc81f1fa72d0bbe44976422b42d29372
+>>>>>>>> main:Assets/Scenes/Assignments/Map.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
