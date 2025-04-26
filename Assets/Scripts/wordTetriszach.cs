@@ -2,7 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class wordTetris : MonoBehaviour
+public class wordTetriszach : MonoBehaviour
 {
     public GameObject square0;
     public GameObject long0;
@@ -163,7 +163,6 @@ public class wordTetris : MonoBehaviour
 
         //this is the text that needs to change
         //The text here will appear in the pieces        
-
         square0Sentence.GetComponent<TextMeshProUGUI>().text    =   "The dog slept."                ;   //  Sentence 1
         long0Sentence.GetComponent<TextMeshProUGUI>().text      =   "The clouds parted."            ;   //  Sentence 2
         zigzag0Sentence.GetComponent<TextMeshProUGUI>().text    =   "The dog fell"                  ;   //  Sentence 3 first half
@@ -184,7 +183,6 @@ public class wordTetris : MonoBehaviour
         long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "They agreed to part ways."     ;   //  Sentence 14        
         zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "When has a bird "              ;   //  Sentence 15 first half        
         zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "ever been early?"              ;   //  Sentence 15 second half 
-
 
         // this makes all the pieces turned off at the beginning
         square0.SetActive(false);
