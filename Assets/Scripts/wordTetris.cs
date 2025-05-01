@@ -163,26 +163,28 @@ public class wordTetris : MonoBehaviour
 
         //this is the text that needs to change
         //The text here will appear in the pieces        
-        square0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Exton"                    ;   //  Sentence 1
-        long0Sentence.GetComponent<TextMeshProUGUI>().text      =   "Zach"                    ;   //  Sentence 2
-        zigzag0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Samuel"         ;   //  Sentence 3 first half
-        zigzag0Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Jennifer"        ;   //  Sentence 3 second hal
-        square1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Raphael"                    ;   //  Sentence 4
-        long1Sentence.GetComponent<TextMeshProUGUI>().text      =   "Joyce"                    ;   //  Sentence 5        
-        zigzag1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sammie"         ;   //  Sentence 6 first half        
-        zigzag1Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sunny"        ;   //  Sentence 6 second half        
-        square2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Kim"                    ;   //  Sentence 7
-        long2Sentence.GetComponent<TextMeshProUGUI>().text      =   "Garreth"                    ;   //  Sentence 8        
-        zigzag2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Hans"         ;   //  Sentence 9 first half
-        zigzag2Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Otis"        ;   //  Sentence 9 second half        
-        square3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Plus"                   ;   //  Sentence 10        
-        long3Sentence.GetComponent<TextMeshProUGUI>().text      =   "Phoebe"                   ;   //  Sentence 11        
-        zigzag3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Esme"        ;   //  Sentence 12 first half        
-        zigzag3Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Vicent"       ;   //  Sentence 12 second half        
-        square4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Gavin"                   ;   //  Sentence 13
-        long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "Wendy"                   ;   //  Sentence 14        
-        zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "May"        ;   //  Sentence 15 first half        
-        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sanami"       ;   //  Sentence 15 second half 
+
+        square0Sentence.GetComponent<TextMeshProUGUI>().text    =   "The dog slept."                ;   //  Sentence 1
+        long0Sentence.GetComponent<TextMeshProUGUI>().text      =   "The clouds parted."            ;   //  Sentence 2
+        zigzag0Sentence.GetComponent<TextMeshProUGUI>().text    =   "The dog fell"                  ;   //  Sentence 3 first half
+        zigzag0Sentence2.GetComponent<TextMeshProUGUI>().text   =   "off the couch."                ;   //  Sentence 3 second hal
+        square1Sentence.GetComponent<TextMeshProUGUI>().text    =   "The man lifted the truck."     ;   //  Sentence 4
+        long1Sentence.GetComponent<TextMeshProUGUI>().text      =   "The dog jumped into water"     ;   //  Sentence 5        
+        zigzag1Sentence.GetComponent<TextMeshProUGUI>().text    =   "There was a "                  ;   //  Sentence 6 first half        
+        zigzag1Sentence2.GetComponent<TextMeshProUGUI>().text   =   "loud horn sound."              ;   //  Sentence 6 second half        
+        square2Sentence.GetComponent<TextMeshProUGUI>().text    =   "I have a loud engine."         ;   //  Sentence 7
+        long2Sentence.GetComponent<TextMeshProUGUI>().text      =   "They ran away, shouting."      ;   //  Sentence 8        
+        zigzag2Sentence.GetComponent<TextMeshProUGUI>().text    =   "There was no way "             ;   //  Sentence 9 first half
+        zigzag2Sentence2.GetComponent<TextMeshProUGUI>().text   =   " to fix it."                   ;   //  Sentence 9 second half        
+        square3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Meals became more expensive."  ;   //  Sentence 10        
+        long3Sentence.GetComponent<TextMeshProUGUI>().text      =   "They apologized."              ;   //  Sentence 11        
+        zigzag3Sentence.GetComponent<TextMeshProUGUI>().text    =   "It's over now,"                ;   //  Sentence 12 first half        
+        zigzag3Sentence2.GetComponent<TextMeshProUGUI>().text   =   " it was a wonderful hike."     ;   //  Sentence 12 second half        
+        square4Sentence.GetComponent<TextMeshProUGUI>().text    =   "The cheese tasted horrible."   ;   //  Sentence 13
+        long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "They agreed to part ways."     ;   //  Sentence 14        
+        zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "When has a bird "              ;   //  Sentence 15 first half        
+        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "ever been early?"              ;   //  Sentence 15 second half 
+
 
         // this makes all the pieces turned off at the beginning
         square0.SetActive(false);

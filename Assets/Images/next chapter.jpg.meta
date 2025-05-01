@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e5f7cb57f41f445bcbb564aa46e026f7
+guid: bae33335251ee1f418c63ab075382b6d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1951415106350124571
-    second: next chapter_0
+      213: 7257230351008655421
+    second: Cambodia cuisine_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: next chapter_0
+      name: Cambodia cuisine_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 480
-        height: 451
+        width: 900
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1e845f33b1d41b10800000000000000
-      internalID: 1951415106350124571
+      spriteID: d38ed05cd8cd6b460800000000000000
+      internalID: 7257230351008655421
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      next chapter_0: 1951415106350124571
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

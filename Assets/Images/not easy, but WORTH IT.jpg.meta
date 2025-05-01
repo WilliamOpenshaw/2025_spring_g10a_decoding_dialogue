@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 380274b7eff2f47c8b87f635ce1e0452
+guid: a7bd82664a9b6b34a8d2d2abaf890f0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6786138934508499186
-    second: not easy, but WORTH IT_0
+      213: -8135059241560898659
+    second: Claire-fotor-bg-remover-20250424131144_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: not easy, but WORTH IT_0
+      name: Claire-fotor-bg-remover-20250424131144_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 736
-        height: 736
+        width: 333
+        height: 496
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f0b3db08653d2e50800000000000000
-      internalID: 6786138934508499186
+      spriteID: d930100a8b67a1f80800000000000000
+      internalID: -8135059241560898659
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      not easy, but WORTH IT_0: 6786138934508499186
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
