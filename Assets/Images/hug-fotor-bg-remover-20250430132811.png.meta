@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 603d1f6e140a940c3b59853c68be3f88
+guid: 47b20a8856865dc4f84cda90147bf21c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6695950386315148514
-    second: BG_0
+      213: 8925182080945021379
+    second: hug-fotor-bg-remover-20250430132811_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_0
+      name: hug-fotor-bg-remover-20250430132811_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 169
-        width: 1024
-        height: 685
+        x: 152
+        y: 0
+        width: 242
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e13cb0ea9943313a0800000000000000
-      internalID: -6695950386315148514
+      spriteID: 3c1e862a0dd9cdb70800000000000000
+      internalID: 8925182080945021379
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BG_0: -6695950386315148514
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
