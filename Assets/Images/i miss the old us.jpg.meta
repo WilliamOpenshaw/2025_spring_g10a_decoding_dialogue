@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8bc890fa6c25841b897f8ed3b8ff16e3
+guid: 2a8c0611bc8725644bb81f8a4e64bfb9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7284230771987210940
-    second: i miss the old us_0
+      213: 2456022418376416505
+    second: "Claire \u7684\u4E00\u898B\u9418\u60C5\u5C0D\u8C61-fotor-bg-remover-2025042314182_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: i miss the old us_0
+      name: "Claire \u7684\u4E00\u898B\u9418\u60C5\u5C0D\u8C61-fotor-bg-remover-2025042314182_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 399
+        width: 333
+        height: 489
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb2644a2b49c61560800000000000000
-      internalID: 7284230771987210940
+      spriteID: 9fcd8bf706b851220800000000000000
+      internalID: 2456022418376416505
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      i miss the old us_0: 7284230771987210940
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
