@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 30aa72a347eda4d1b9b0efa2edca0153
+guid: 56d0fa67fd5ee38498edce62a267d8a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1668578952645896248
-    second: 1430e2_e6713314b17b480998705c28e557d6e0~mv2_0
+      213: -602664102959831133
+    second: Hainanese-Chicken-Rice-Wide-fotor-bg-remover-20250422132251_0
+  - first:
+      213: 8173625695511600537
+    second: Hainanese-Chicken-Rice-Wide-fotor-bg-remover-20250422132251_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +99,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1430e2_e6713314b17b480998705c28e557d6e0~mv2_0
+      name: Hainanese-Chicken-Rice-Wide-fotor-bg-remover-20250422132251_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 958
-        height: 866
+        x: 59
+        y: 13
+        width: 368
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 838e62887bbf72710800000000000000
-      internalID: 1668578952645896248
+      spriteID: 3a723300138e2a7f0800000000000000
+      internalID: -602664102959831133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hainanese-Chicken-Rice-Wide-fotor-bg-remover-20250422132251_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d59fba34d8e6170800000000000000
+      internalID: 8173625695511600537
       vertices: []
       indices: 
       edges: []
@@ -148,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1430e2_e6713314b17b480998705c28e557d6e0~mv2_0: 1668578952645896248
+      Hainanese-Chicken-Rice-Wide-fotor-bg-remover-20250422132251_0: -602664102959831133
+      Hainanese-Chicken-Rice-Wide-fotor-bg-remover-20250422132251_1: 8173625695511600537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
