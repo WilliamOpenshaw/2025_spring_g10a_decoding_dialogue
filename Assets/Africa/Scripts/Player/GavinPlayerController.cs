@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class GavinPlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 4f;
     [SerializeField] private Collider2D spearTipColliderLeft;

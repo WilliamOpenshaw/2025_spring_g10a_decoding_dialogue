@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HyenaController : MonoBehaviour
+public class ElephantController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 4f;
     [SerializeField] private Collider2D biteLeft;
     [SerializeField] private Collider2D biteRight;
 
+    private CapsuleCollider2D capsuleCollider2D;
     private HyenaControls HyenaControls;
     private Vector2 movement;
     private Rigidbody2D rb;
@@ -25,6 +26,7 @@ public class HyenaController : MonoBehaviour
         HyenaControls = new HyenaControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        capsuleCollider2D = GetComponent<CapsuleCollider2D>();
 
         // Find the attack action in your HyenaControls
         attackAction = HyenaControls.Movement.attack; // Assuming "attack" is in the "Movement" action map
@@ -110,16 +112,25 @@ public class HyenaController : MonoBehaviour
             isAttacking = true;
             // Trigger the attack animation
             if (wasMovingRight == true){
-                biteRight.enabled = true;
                 animator.SetTrigger("BiteRight"); // Make sure you have an "Attack" trigger in your Animator
             } else {
-                biteLeft.enabled = true;
                 animator.SetTrigger("BiteLeft"); // Make sure you have an "Attack" trigger in your Animator
             }
            
         }
     }
+    
+    public void EnableAttackHitbox()
+    {
 
+        capsuleCollider2D.enabled = false;
+       if (wasMovingRight == true){
+            biteRight.enabled = true;
+        } 
+        else {
+            biteLeft.enabled = true;
+        } 
+    }
     // This method will be called by an Animation Event when the attack animation finishes
     public void EndAttackAnimation()
     {
@@ -128,6 +139,7 @@ public class HyenaController : MonoBehaviour
         // e.g., animator.SetBool("IsAttacking", false); if you used a boolean
         biteLeft.enabled = false;
         biteRight.enabled = false;
+        capsuleCollider2D.enabled = true;
     }
 
     void OnTriggerEnter2D(Collider2D other) {
