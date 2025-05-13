@@ -5,11 +5,13 @@ public class playerMove : MonoBehaviour
 {
     public bool characterCanMove;
     public float speed;
+    public Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         characterCanMove = true;
         speed = 0.01f;
+        anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -17,15 +19,58 @@ public class playerMove : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.D) && characterCanMove == true && gameObject.transform.localPosition.x < 2.88f)
         {
-            gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x + speed,gameObject.transform.localPosition.y, gameObject.transform.localPosition.z);
-            //anim.SetBool("isWalking", true);
+            gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x + speed,
+                                                                -2.0f, 
+                                                                gameObject.transform.localPosition.z);
+            anim.SetBool("isWalking", true);
             //spriteRenderer.flipX = false;
         }
         else if(Input.GetKey(KeyCode.A) && characterCanMove == true && gameObject.transform.localPosition.x > -2.88f)
         {
-            gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x - speed,gameObject.transform.localPosition.y, gameObject.transform.localPosition.z);
-            //anim.SetBool("isWalking", true);
+            gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x - speed,
+                                                                -2.0f, 
+                                                                gameObject.transform.localPosition.z);
+            anim.SetBool("isWalking", true);
             //spriteRenderer.flipX = true;
+        }
+        else if(Input.GetKey(KeyCode.I) && characterCanMove == true)
+        {
+            gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x,
+                                                                -2.0f, 
+                                                                gameObject.transform.localPosition.z);
+            anim.SetBool("isKicking", true);
+        }
+        else if(Input.GetKey(KeyCode.O) && characterCanMove == true)
+        {
+            /*
+            if(anim.GetBool("isJumping") == false)
+            {
+                gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x,
+                                                                -2.0f, 
+                                                                gameObject.transform.localPosition.z);
+            } 
+            */           
+            anim.SetBool("isJumping", true);
+        }
+        else if(Input.GetKey(KeyCode.P) && characterCanMove == true)
+        {
+            gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x,
+                                                                -2.0f, 
+                                                                gameObject.transform.localPosition.z);
+            anim.SetBool("isPunching", true);
+        }
+        else{
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isKicking", false);
+            anim.SetBool("isPunching", false);
+            anim.SetBool("isJumping", false);
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Prince jump"))
+            {
+                gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x,
+                                                                -2.0f, 
+                                                                gameObject.transform.localPosition.z);
+            }
+            
         }
     }
 }
