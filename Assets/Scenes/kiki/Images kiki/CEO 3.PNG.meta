@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CEO 3_0: 5376371310562839564
+      CEO 3_1: 6533910947150821573
+      CEO 3_10: -105554307892065887
+      CEO 3_11: -2482641568769480509
+      CEO 3_12: 5223242844879646357
+      CEO 3_13: 554427933101167254
+      CEO 3_2: -3025473930329716707
+      CEO 3_3: 663572944912618643
+      CEO 3_4: 3595349422572528342
+      CEO 3_5: -3722925267012198877
+      CEO 3_6: -5771269709420274965
+      CEO 3_7: 854327506370984883
+      CEO 3_8: -7062355284667530129
+      CEO 3_9: 790994298841575796
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monster outline_0: 2295952244379864771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
