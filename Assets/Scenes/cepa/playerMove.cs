@@ -6,12 +6,14 @@ public class playerMove : MonoBehaviour
     public bool characterCanMove;
     public float speed;
     public Animator anim;
+    public float height;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         characterCanMove = true;
         speed = 0.01f;
         anim = gameObject.GetComponent<Animator>();
+        //height = -2.0f;
     }
 
     // Update is called once per frame
@@ -20,7 +22,7 @@ public class playerMove : MonoBehaviour
         if(Input.GetKey(KeyCode.D) && characterCanMove == true && gameObject.transform.localPosition.x < 2.88f)
         {
             gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x + speed,
-                                                                -2.0f, 
+                                                                height, 
                                                                 gameObject.transform.localPosition.z);
             anim.SetBool("isWalking", true);
             //spriteRenderer.flipX = false;
@@ -28,7 +30,7 @@ public class playerMove : MonoBehaviour
         else if(Input.GetKey(KeyCode.A) && characterCanMove == true && gameObject.transform.localPosition.x > -2.88f)
         {
             gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x - speed,
-                                                                -2.0f, 
+                                                                height, 
                                                                 gameObject.transform.localPosition.z);
             anim.SetBool("isWalking", true);
             //spriteRenderer.flipX = true;
@@ -36,7 +38,7 @@ public class playerMove : MonoBehaviour
         else if(Input.GetKey(KeyCode.I) && characterCanMove == true)
         {
             gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x,
-                                                                -2.0f, 
+                                                                height, 
                                                                 gameObject.transform.localPosition.z);
             anim.SetBool("isKicking", true);
         }
@@ -64,10 +66,10 @@ public class playerMove : MonoBehaviour
             anim.SetBool("isKicking", false);
             anim.SetBool("isPunching", false);
             anim.SetBool("isJumping", false);
-            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Prince jump"))
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Prince jump") && !anim.GetCurrentAnimatorStateInfo(0).IsName("Prince idle"))
             {
                 gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x,
-                                                                -2.0f, 
+                                                                height, 
                                                                 gameObject.transform.localPosition.z);
             }
             
