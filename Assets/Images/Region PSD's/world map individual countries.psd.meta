@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 4df973aef5ec05c459c5dbed97831834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5700712131761603252
+    second: world map individual countries_0
+  - first:
+      213: -8940619454283334020
+    second: world map individual countries_1
+  - first:
+      213: 5648019535929123581
+    second: world map individual countries_2
+  - first:
+      213: 6739708928079230504
+    second: world map individual countries_3
+  - first:
+      213: -6661785803399124724
+    second: world map individual countries_4
+  - first:
+      213: 7562892512667571374
+    second: world map individual countries_5
+  - first:
+      213: -2986318553519014414
+    second: world map individual countries_6
+  - first:
+      213: -6705960883466574534
+    second: world map individual countries_7
+  - first:
+      213: -3045961702777550330
+    second: world map individual countries_8
+  - first:
+      213: -789585742333849669
+    second: world map individual countries_9
+  - first:
+      213: -2686637360487413613
+    second: world map individual countries_10
+  - first:
+      213: -8865118094059130366
+    second: world map individual countries_11
+  - first:
+      213: -2657679917852030275
+    second: world map individual countries_12
+  - first:
+      213: -8488735868111858137
+    second: world map individual countries_13
+  - first:
+      213: 5975402588224467396
+    second: world map individual countries_14
+  - first:
+      213: -5212766014843445853
+    second: world map individual countries_15
+  - first:
+      213: -1286562928762969590
+    second: world map individual countries_16
+  - first:
+      213: 3945705123495644718
+    second: world map individual countries_17
+  - first:
+      213: 5794010930097966742
+    second: world map individual countries_18
+  - first:
+      213: -4034643159791501980
+    second: world map individual countries_19
+  - first:
+      213: 4561997878628122888
+    second: world map individual countries_20
+  - first:
+      213: 507476801948820883
+    second: world map individual countries_21
+  - first:
+      213: -1425139976527829981
+    second: world map individual countries_22
+  - first:
+      213: -1313185115069830574
+    second: world map individual countries_23
+  - first:
+      213: 3712286434298056717
+    second: world map individual countries_24
+  - first:
+      213: 3070449084173822387
+    second: world map individual countries_25
+  - first:
+      213: -5718162973272923842
+    second: world map individual countries_26
+  - first:
+      213: 4361593716658553610
+    second: world map individual countries_27
+  - first:
+      213: -1855541221182159083
+    second: world map individual countries_28
+  - first:
+      213: -5729179916720119059
+    second: world map individual countries_29
+  - first:
+      213: -4979207971623202493
+    second: world map individual countries_30
+  - first:
+      213: 7218102633618801631
+    second: world map individual countries_31
+  - first:
+      213: -4330082971706159780
+    second: world map individual countries_32
+  - first:
+      213: 7531536498106888463
+    second: world map individual countries_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: world map individual countries_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 687
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4df693158003e0b0800000000000000
+      internalID: -5700712131761603252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_1
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1090
+        width: 226
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ebe7bc9f98ce380800000000000000
+      internalID: -8940619454283334020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1086
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2a58be7dbc16e40800000000000000
+      internalID: 5648019535929123581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 739
+        width: 239
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826f0b3cf81488d50800000000000000
+      internalID: 6739708928079230504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_4
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 951
+        width: 493
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09a7a28b159c83a0800000000000000
+      internalID: -6661785803399124724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_5
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1136
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4130c9baac4f860800000000000000
+      internalID: 7562892512667571374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_6
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 987
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd375709177e86d0800000000000000
+      internalID: -2986318553519014414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_7
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 897
+        width: 67
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a356f4f2b14afe2a0800000000000000
+      internalID: -6705960883466574534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_8
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 766
+        width: 359
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a008238f19ab5d0800000000000000
+      internalID: -3045961702777550330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_9
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 720
+        width: 309
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf4a7463f3da05f0800000000000000
+      internalID: -789585742333849669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_10
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 923
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398cad71e8527bad0800000000000000
+      internalID: -2686637360487413613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_11
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 828
+        width: 59
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202b7b71016c8f480800000000000000
+      internalID: -8865118094059130366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_12
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 732
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba8db912360e1bd0800000000000000
+      internalID: -2657679917852030275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_13
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 539
+        width: 590
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726531504b3f13a80800000000000000
+      internalID: -8488735868111858137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_14
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 590
+        width: 184
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1b115bef4ece250800000000000000
+      internalID: 5975402588224467396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_15
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 378
+        width: 255
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad170c8de888a7b0800000000000000
+      internalID: -5212766014843445853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 149
+        width: 327
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02a5e135d5352ee0800000000000000
+      internalID: -1286562928762969590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_17
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 156
+        width: 502
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e856297e5f1c630800000000000000
+      internalID: 3945705123495644718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_18
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 614
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e48313e36786050800000000000000
+      internalID: 5794010930097966742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_19
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 580
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dfa213c611208c0800000000000000
+      internalID: -4034643159791501980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_20
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 610
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80107bd66e87f4f30800000000000000
+      internalID: 4561997878628122888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_21
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 427
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39529ef667bea0700800000000000000
+      internalID: 507476801948820883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_22
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 572
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324a9d7fdb2e83ce0800000000000000
+      internalID: -1425139976527829981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_23
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 542
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aaeeb6811a6cde0800000000000000
+      internalID: -1313185115069830574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_24
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 409
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0056dce7d0b48330800000000000000
+      internalID: 3712286434298056717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_25
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 461
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9aa139c2d6c9a20800000000000000
+      internalID: 3070449084173822387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_26
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 374
+        width: 120
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31a64a621105a0b0800000000000000
+      internalID: -5718162973272923842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_27
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 430
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a034208606e778c30800000000000000
+      internalID: 4361593716658553610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_28
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 430
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517c755271bcf36e0800000000000000
+      internalID: -1855541221182159083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_29
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 360
+        width: 78
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de26891683ddd70b0800000000000000
+      internalID: -5729179916720119059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_30
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 360
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3411b941bbc46eab0800000000000000
+      internalID: -4979207971623202493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_31
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 105
+        width: 280
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd309252a1adb2460800000000000000
+      internalID: 7218102633618801631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_32
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 22
+        width: 130
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d8c7f9a7478e3c0800000000000000
+      internalID: -4330082971706159780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world map individual countries_33
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 58
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01fc8e8a84658860800000000000000
+      internalID: 7531536498106888463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

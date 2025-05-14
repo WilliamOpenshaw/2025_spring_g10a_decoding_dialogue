@@ -14,6 +14,8 @@ public class hoverSwell : MonoBehaviour, IPointerEnterHandler,  IPointerExitHand
     //create variable for sizeX
     public float sizeZ;
 
+    public float size;
+
     //Do this once when program starts
     public void Start()
     {   
@@ -23,6 +25,7 @@ public class hoverSwell : MonoBehaviour, IPointerEnterHandler,  IPointerExitHand
         sizeY = gameObject.transform.localScale.y;
         //save starting z size
         sizeZ = gameObject.transform.localScale.z;
+        size = 1.5f;
     }
 
     //Do this when the cursor exits the rect area of this selectable UI object.
@@ -42,7 +45,7 @@ public class hoverSwell : MonoBehaviour, IPointerEnterHandler,  IPointerExitHand
         Debug.Log("The cursor entered the selectable UI element.");
         
         //double the size of this object that the script is attached to
-        gameObject.transform.localScale = new Vector3(  sizeX * 2, sizeY * 2 , sizeZ * 2 );
+        gameObject.transform.localScale = new Vector3(  sizeX * size, sizeY * size , sizeZ * size );
     }
 
     
