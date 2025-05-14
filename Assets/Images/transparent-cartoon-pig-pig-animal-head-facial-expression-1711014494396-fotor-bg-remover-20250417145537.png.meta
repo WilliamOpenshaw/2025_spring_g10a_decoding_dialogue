@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      transparent-cartoon-pig-pig-animal-head-facial-expression-1711014494396-fotor-bg-remover-20250417145537_0: -6243286296836822109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

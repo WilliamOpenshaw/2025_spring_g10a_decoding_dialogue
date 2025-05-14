@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Claire-fotor-bg-remover-20250424131144_0: -8135059241560898659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Claire_0: -1666138924252182313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

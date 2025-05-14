@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cambodia cuisine_0: 7257230351008655421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
