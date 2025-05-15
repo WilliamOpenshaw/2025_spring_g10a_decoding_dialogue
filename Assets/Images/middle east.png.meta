@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/cepa/2025PBL Little Prince Body Parts 2.psd.meta
+guid: a2b5cab541bc3ad4bab87d13b5e320cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2904847889800999606
+    second: 2025PBL Little Prince Body Parts 2_0
+========
 guid: 4267bf75ca2c27d4eaab169681da4001
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5220538327198402913
     second: 360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0
+>>>>>>>> main:Assets/Images/middle east.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +57,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -96,23 +105,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/cepa/2025PBL Little Prince Body Parts 2.psd.meta
+      name: 2025PBL Little Prince Body Parts 2_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 62
+        width: 841
+        height: 934
+========
       name: 360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0
       rect:
         serializedVersion: 2
@@ -120,6 +125,7 @@ TextureImporter:
         y: 13
         width: 170
         height: 335
+>>>>>>>> main:Assets/Images/middle east.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Scenes/cepa/2025PBL Little Prince Body Parts 2.psd.meta
+      spriteID: a4d4ed91c38efa7d0800000000000000
+      internalID: -2904847889800999606
+========
       spriteID: f96f60f0d0cec87b0800000000000000
       internalID: -5220538327198402913
+>>>>>>>> main:Assets/Images/middle east.png.meta
       vertices: []
       indices: 
       edges: []
@@ -148,7 +159,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<<< HEAD:Assets/Scenes/cepa/2025PBL Little Prince Body Parts 2.psd.meta
+      2025PBL Little Prince Body Parts 2_0: -2904847889800999606
+========
       360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0: -5220538327198402913
+>>>>>>>> main:Assets/Images/middle east.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
