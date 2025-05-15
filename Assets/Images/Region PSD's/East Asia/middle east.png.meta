@@ -147,8 +147,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       middle east_0: 5249095003013546172
+>>>>>>> e373879d4182406d5c82bc72f04943c2a8f2b342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
