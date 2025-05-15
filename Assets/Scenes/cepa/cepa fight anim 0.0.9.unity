@@ -8797,9 +8797,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 198301695}
     m_Modifications:
+    - target: {fileID: 154187442238597557, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 663453730305323801, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346687065424080986, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409219054360557863, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4859914052375026642, guid: 96053a389040515468d6393c84c5191b, type: 3}
       propertyPath: height
       value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5239543519710166581, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281321021916544601, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623684244116219091, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7678787580857710338, guid: 96053a389040515468d6393c84c5191b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8841,9 +8869,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7775887442364845077, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329707014756617388, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 8815956018568572769, guid: 96053a389040515468d6393c84c5191b, type: 3}
       propertyPath: m_Name
       value: Little Prince
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047343137098235248, guid: 96053a389040515468d6393c84c5191b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
