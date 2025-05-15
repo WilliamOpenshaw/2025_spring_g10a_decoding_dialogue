@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      no prince bg_0: 799596522644031096
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
