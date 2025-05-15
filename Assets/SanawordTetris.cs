@@ -163,26 +163,26 @@ public class wordTetris : MonoBehaviour
 
         //this is the text that needs to change
         //The text here will appear in the pieces        
-        square0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 1"                    ;   //  Sentence 1
-        long0Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 2"                    ;   //  Sentence 2
-        zigzag0Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 3 first half"         ;   //  Sentence 3 first half
-        zigzag0Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 3 second half"        ;   //  Sentence 3 second hal
-        square1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 4"                    ;   //  Sentence 4
-        long1Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 5"                    ;   //  Sentence 5        
-        zigzag1Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 6 first half"         ;   //  Sentence 6 first half        
-        zigzag1Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 6 second half"        ;   //  Sentence 6 second half        
-        square2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 7"                    ;   //  Sentence 7
-        long2Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 8"                    ;   //  Sentence 8        
-        zigzag2Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 9 first half"         ;   //  Sentence 9 first half
-        zigzag2Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 9 second half"        ;   //  Sentence 9 second half        
-        square3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 10"                   ;   //  Sentence 10        
-        long3Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 11"                   ;   //  Sentence 11        
-        zigzag3Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 12 first half"        ;   //  Sentence 12 first half        
-        zigzag3Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 12 second half"       ;   //  Sentence 12 second half        
-        square4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 13"                   ;   //  Sentence 13
-        long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "Sentence 14"                   ;   //  Sentence 14        
-        zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "Sentence 15 first half"        ;   //  Sentence 15 first half        
-        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "Sentence 15 second half"       ;   //  Sentence 15 second half 
+        square0Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 1"                    ;   //  Sentence 1
+        long0Sentence.GetComponent<TextMeshProUGUI>().text      =   "New SEntence 2"                    ;   //  Sentence 2
+        zigzag0Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 3 first half"         ;   //  Sentence 3 first half
+        zigzag0Sentence2.GetComponent<TextMeshProUGUI>().text   =   "New SEntence 3 second half"        ;   //  Sentence 3 second hal
+        square1Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 4"                    ;   //  Sentence 4
+        long1Sentence.GetComponent<TextMeshProUGUI>().text      =   "New SEntence 5"                    ;   //  Sentence 5        
+        zigzag1Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 6 first half"         ;   //  Sentence 6 first half        
+        zigzag1Sentence2.GetComponent<TextMeshProUGUI>().text   =   "New SEntence 6 second half"        ;   //  Sentence 6 second half        
+        square2Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 7"                    ;   //  Sentence 7
+        long2Sentence.GetComponent<TextMeshProUGUI>().text      =   "New SEntence 8"                    ;   //  Sentence 8        
+        zigzag2Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 9 first half"         ;   //  Sentence 9 first half
+        zigzag2Sentence2.GetComponent<TextMeshProUGUI>().text   =   "New SEntence 9 second half"        ;   //  Sentence 9 second half        
+        square3Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 10"                   ;   //  Sentence 10        
+        long3Sentence.GetComponent<TextMeshProUGUI>().text      =   "New SEntence 11"                   ;   //  Sentence 11        
+        zigzag3Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 12 first half"        ;   //  Sentence 12 first half        
+        zigzag3Sentence2.GetComponent<TextMeshProUGUI>().text   =   "New SEntence 12 second half"       ;   //  Sentence 12 second half        
+        square4Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 13"                   ;   //  Sentence 13
+        long4Sentence.GetComponent<TextMeshProUGUI>().text      =   "New SEntence 14"                   ;   //  Sentence 14        
+        zigzag4Sentence.GetComponent<TextMeshProUGUI>().text    =   "New SEntence 15 first half"        ;   //  Sentence 15 first half        
+        zigzag4Sentence2.GetComponent<TextMeshProUGUI>().text   =   "New SEntence 15 second half"       ;   //  Sentence 15 second half 
 
         // this makes all the pieces turned off at the beginning
         square0.SetActive(false);
@@ -205,7 +205,7 @@ public class wordTetris : MonoBehaviour
         //lets try it
         //Let's movea piece and see what number we get
         // a height of 364
-        startPos = new Vector2(0, 0); 
+        startPos = new Vector2(0, 364); 
 
         // this sets teh location of all the pieces to the starting location
         // so they can fall down when they appear 
