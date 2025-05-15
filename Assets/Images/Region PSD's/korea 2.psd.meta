@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      korea 2_0: 7793602427617189459
+      korea 2_1: 8087185444355120841
+      korea 2_2: -4955784631222502850
+      korea 2_3: 549322336165339778
+      korea 2_4: -7461201145922298994
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
