@@ -105,6 +105,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -159,11 +172,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< Updated upstream
 <<<<<<<< HEAD:Assets/Scenes/cepa/2025PBL Little Prince Body Parts 2.psd.meta
       2025PBL Little Prince Body Parts 2_0: -2904847889800999606
 ========
       360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0: -5220538327198402913
 >>>>>>>> main:Assets/Images/middle east.png.meta
+=======
+      360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0: -5220538327198402913
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
