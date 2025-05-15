@@ -60,5 +60,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if(healthSlider != null){
             healthSlider.value = normalizedHealth;
         }
+        if(normalizedHealth == 0f){
+            Debug.Log("died");
+        }
     }
 }

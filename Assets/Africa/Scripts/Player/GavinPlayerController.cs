@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using UnityEngine.Input;
 
 public class GavinPlayerController : MonoBehaviour
 {
@@ -62,6 +63,7 @@ public class GavinPlayerController : MonoBehaviour
         {
             PlayerInput();
         }
+        
     }
 
     private void FixedUpdate() {
@@ -141,5 +143,13 @@ public class GavinPlayerController : MonoBehaviour
             Debug.Log("Damage dealt to " + other.name);
         }
 
+    }
+
+    public void ApplyKnockback(float force, Vector2 direction) 
+    {
+        Debug.Log("Force knockback called");
+        Debug.Log(force);
+        Debug.Log(direction);
+        rb.AddForce(-direction * force);
     }
 }

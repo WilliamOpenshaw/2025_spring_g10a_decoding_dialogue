@@ -60,8 +60,6 @@ public class Health : MonoBehaviour
     public void Die()
     {
         Debug.Log($"{gameObject.name} has died!");
-        // You would typically add code here to handle the death,
-        // such as disabling the GameObject, playing an animation, etc.
-        // Destroy(gameObject); // Example: destroy the object
+        Destroy(gameObject); // Example: destroy the object
     }
 }
