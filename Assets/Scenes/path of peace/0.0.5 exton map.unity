@@ -27161,9 +27161,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1072148916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219f1e7921e0545a5853a6948e1c3dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7866fb314f7f6724cb7906870be001ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterCanMove: 1
+  anim: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!95 &1072148920
 Animator:
   serializedVersion: 7
@@ -28892,9 +28895,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1150253289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219f1e7921e0545a5853a6948e1c3dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7866fb314f7f6724cb7906870be001ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterCanMove: 1
+  anim: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!212 &1150253293
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32129,9 +32135,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1272487858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219f1e7921e0545a5853a6948e1c3dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7866fb314f7f6724cb7906870be001ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterCanMove: 1
+  anim: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!212 &1272487862
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51241,9 +51250,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1922854943}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219f1e7921e0545a5853a6948e1c3dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7866fb314f7f6724cb7906870be001ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterCanMove: 1
+  anim: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!212 &1922854947
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51576,9 +51588,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1940165844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219f1e7921e0545a5853a6948e1c3dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7866fb314f7f6724cb7906870be001ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterCanMove: 1
+  anim: {fileID: 0}
+  spriteRenderer: {fileID: 0}
 --- !u!212 &1940165848
 SpriteRenderer:
   m_ObjectHideFlags: 0
