@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/animations/Scenes.meta
+guid: a6ace05b6d6171f4fa1906165ef727d0
+folderAsset: yes
+========
 guid: 08146cbc8dc6b9e479be85e715525734
+>>>>>>>> main:Assets/Scenes/kiki/kiki 0.0.3.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
