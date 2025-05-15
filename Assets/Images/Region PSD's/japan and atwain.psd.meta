@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      japan and atwain_0: -2177270694817680376
+      japan and atwain_1: -6929340739316851937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
