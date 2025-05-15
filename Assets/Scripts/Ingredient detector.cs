@@ -17,6 +17,8 @@ public class Ingredientdetector : MonoBehaviour
         riverWater.SetActive(false);
         lionHeart.SetActive(false);
 
+        
+
     }
 
     // Update is called once per frame

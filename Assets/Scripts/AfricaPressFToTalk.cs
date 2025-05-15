@@ -5,6 +5,7 @@ public class AfricaPressFToTalk : MonoBehaviour
     public GameObject speechBubble;
     public bool canStartConversation;
     public GameObject convo1;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
