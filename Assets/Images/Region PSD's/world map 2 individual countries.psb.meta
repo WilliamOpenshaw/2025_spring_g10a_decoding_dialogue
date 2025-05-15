@@ -1,0 +1,594 @@
+fileFormatVersion: 2
+guid: e59aaddf9fd5729429592224d4933468
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 57d58a5cc50916d46a6d3471a36c9339
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: South America
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1485
+      width: 325
+      height: 534
+    spriteID: 3be05cea4a481b24788b2bd9f36c899c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1485}
+    spritePosition: {x: 245, y: 150}
+  - name: Southeast Asia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 4
+      width: 530
+      height: 435
+    spriteID: 099caa254685cfc4086036897aa65796
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 4}
+    spritePosition: {x: 1784, y: 361}
+  - name: North America
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 545
+      width: 466
+      height: 466
+    spriteID: 59ab9c3a9cc86644da3d1895baa6e9bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 545}
+    spritePosition: {x: 23, y: 688}
+  - name: Greenland and iceland
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 1564
+      width: 248
+      height: 125
+    spriteID: 5f320978ca3e14846b8b4588aaf9130e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 1564}
+    spritePosition: {x: 467, y: 1087}
+  - name: Africa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 500
+      height: 533
+    spriteID: daa04d7780196584baba78e3ae96a2ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 708, y: 157}
+  - name: Middle East
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 1050
+      y: 4
+      width: 588
+      height: 361
+    spriteID: c0ccac296cf5520439f08dbba5a901b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1050, y: 4}
+    spritePosition: {x: 1056, y: 540}
+  - name: Russia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 1350
+      width: 491
+      height: 206
+    spriteID: dcfbe7ec24429b54e92ef24e03037ce4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 1350}
+    spritePosition: {x: 1220, y: 952}
+  - name: India
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 1697
+      width: 182
+      height: 167
+    spriteID: 2a1d6b4037b5088499fe4b9faf74cd6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 1697}
+    spritePosition: {x: 1586, y: 591}
+  - name: East Asia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 760
+      width: 357
+      height: 287
+    spriteID: ecaa90af3f03583468b6a12b1e4f42fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 760}
+    spritePosition: {x: 1725, y: 767}
+  - name: Korea
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 924
+      y: 447
+      width: 53
+      height: 102
+    spriteID: 617be1aeb4877384d848244326b778fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 924, y: 447}
+    spritePosition: {x: 2048, y: 830}
+  - name: China
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 1055
+      width: 357
+      height: 287
+    spriteID: db8c6ab3d0aae954d8838c8882e126fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 1055}
+    spritePosition: {x: 1725, y: 767}
+  - name: Aus and NZ
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 447
+      width: 404
+      height: 305
+    spriteID: 5aef7f1b321e4544ea49e1a6de1e6757
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 447}
+    spritePosition: {x: 1928, y: 23}
+  - name: Europe
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1019
+      width: 400
+      height: 458
+    spriteID: 97cafe7f6981c044b9acf67fdd2845aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1019}
+    spritePosition: {x: 642, y: 721}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: South America
+    spriteName: South America
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3be05cea4a481b24788b2bd9f36c899c
+    layerID: 7
+    mosaicPosition: {x: 4, y: 1485}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Southeast Asia
+    spriteName: Southeast Asia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 099caa254685cfc4086036897aa65796
+    layerID: 18
+    mosaicPosition: {x: 512, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: North America
+    spriteName: North America
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 59ab9c3a9cc86644da3d1895baa6e9bc
+    layerID: 8
+    mosaicPosition: {x: 4, y: 545}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Greenland and iceland
+    spriteName: Greenland and iceland
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5f320978ca3e14846b8b4588aaf9130e
+    layerID: 9
+    mosaicPosition: {x: 512, y: 1564}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Africa
+    spriteName: Africa
+    isGroup: 0
+    parentIndex: -1
+    spriteID: daa04d7780196584baba78e3ae96a2ab
+    layerID: 11
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Middle East
+    spriteName: Middle East
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c0ccac296cf5520439f08dbba5a901b1
+    layerID: 12
+    mosaicPosition: {x: 1050, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Russia
+    spriteName: Russia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dcfbe7ec24429b54e92ef24e03037ce4
+    layerID: 13
+    mosaicPosition: {x: 512, y: 1350}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: India
+    spriteName: India
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2a1d6b4037b5088499fe4b9faf74cd6c
+    layerID: 14
+    mosaicPosition: {x: 512, y: 1697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: East Asia
+    spriteName: East Asia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ecaa90af3f03583468b6a12b1e4f42fa
+    layerID: 16
+    mosaicPosition: {x: 512, y: 760}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Korea
+    spriteName: Korea
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 617be1aeb4877384d848244326b778fb
+    layerID: 17
+    mosaicPosition: {x: 924, y: 447}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: China
+    spriteName: China
+    isGroup: 0
+    parentIndex: -1
+    spriteID: db8c6ab3d0aae954d8838c8882e126fe
+    layerID: 15
+    mosaicPosition: {x: 512, y: 1055}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Aus and NZ
+    spriteName: Aus and NZ
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5aef7f1b321e4544ea49e1a6de1e6757
+    layerID: 19
+    mosaicPosition: {x: 512, y: 447}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Europe
+    spriteName: Europe
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97cafe7f6981c044b9acf67fdd2845aa
+    layerID: 20
+    mosaicPosition: {x: 4, y: 1019}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: alpha map copy
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 34ae21ba1ccd5ab4bab4eb79d3eb4d40
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: alpha map
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b5ec0ba67ebb8645bad4072071ff435
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4c798ec0a95e112409b71479d21495ca
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
