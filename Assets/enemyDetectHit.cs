@@ -20,13 +20,15 @@ public class enemyDetectHit : MonoBehaviour
      public GameObject sovietFightLevel;
      public GameObject sovietUIEndOfFight;
 
+      public float enemyDamageTaken = 0.025f;
+
     public GameObject endScreenUI;
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log("Collision Happened");
         if (col.CompareTag("Player"))
         {
-            enemyHealth.fillAmount -= 0.1f;
+            enemyHealth.fillAmount -= enemyDamageTaken;
             Debug.Log("Enemy has been hit by player");
             Debug.Log(enemyHealth.fillAmount);
         }

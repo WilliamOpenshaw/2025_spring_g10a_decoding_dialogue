@@ -24,7 +24,7 @@ public class gameOverCepa : MonoBehaviour
             mainMenuUI.SetActive(false);
         }
         // germany
-        else if (UIFrance.activeSelf == true)
+        else if (UIGermany.activeSelf == true)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             
@@ -32,7 +32,7 @@ public class gameOverCepa : MonoBehaviour
             mainMenuUI.SetActive(false);
         }
         // soviet
-        else if (UIFrance.activeSelf == true)
+        else if (UISoviet.activeSelf == true)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             

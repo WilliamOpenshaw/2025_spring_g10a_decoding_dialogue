@@ -10,13 +10,16 @@ public class playerdetecthit : MonoBehaviour
     public GameObject germanyUIEndOfFight;
     public GameObject sovietUIEndOfFight;
 
+    public float princeDamageTaken = 0.025f;
+
     public GameObject GameOverUI;
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log("Collision Happened");
         if (col.CompareTag("Enemy"))
         {
-            playerHealth.fillAmount -= 0.1f;
+            // 0.1 / 4 =  0.025
+            playerHealth.fillAmount -= princeDamageTaken;
             Debug.Log("Player has been hit by Enemy");
             Debug.Log(playerHealth.fillAmount);
         }
