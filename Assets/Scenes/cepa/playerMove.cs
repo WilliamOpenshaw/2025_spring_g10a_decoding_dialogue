@@ -7,6 +7,8 @@ public class playerMove : MonoBehaviour
     public float speed;
     public Animator anim;
     public float height;
+    public float leftBoundary;
+    public float rightBoundary;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +21,7 @@ public class playerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.D) && characterCanMove == true && gameObject.transform.localPosition.x < 2.88f)
+        if(Input.GetKey(KeyCode.D) && characterCanMove == true && gameObject.transform.localPosition.x < rightBoundary)
         {
             gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x + speed,
                                                                 height, 
@@ -27,7 +29,7 @@ public class playerMove : MonoBehaviour
             anim.SetBool("isWalking", true);
             //spriteRenderer.flipX = false;
         }
-        else if(Input.GetKey(KeyCode.A) && characterCanMove == true && gameObject.transform.localPosition.x > -2.88f)
+        else if(Input.GetKey(KeyCode.A) && characterCanMove == true && gameObject.transform.localPosition.x > leftBoundary)
         {
             gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x - speed,
                                                                 height, 
@@ -57,7 +59,7 @@ public class playerMove : MonoBehaviour
         else if(Input.GetKey(KeyCode.P) && characterCanMove == true)
         {
             gameObject.transform.localPosition = new Vector3(   gameObject.transform.localPosition.x,
-                                                                -2.0f, 
+                                                                height, 
                                                                 gameObject.transform.localPosition.z);
             anim.SetBool("isPunching", true);
         }
