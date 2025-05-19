@@ -4,33 +4,41 @@ using UnityEngine.UI;
 
 public class gameOverCepa : MonoBehaviour
 {
-    public GameObject france;
-    public GameObject germany;
-    public GameObject soviet;
+    
 
-    public GameObject fightUIFrance;
-    public GameObject fightUIGermany;
-    public GameObject fightUISoviet;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public GameObject UIFrance;
+    public GameObject UIGermany;
+    public GameObject UISoviet;
+
+    public GameObject mainMenuUI;
+    
+
+    public void gameOverReset()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void gameOver()
-    {
-        if (france.activeSelf == true)
+        // france
+        if (UIFrance.activeSelf == true)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            france.SetActive(true);
+            
+            UIFrance.SetActive(true);
+            mainMenuUI.SetActive(false);
         }
-        germany.SetActive(false);
-        soviet.SetActive(false);
+        // germany
+        else if (UIFrance.activeSelf == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
+            UIGermany.SetActive(true);
+            mainMenuUI.SetActive(false);
+        }
+        // soviet
+        else if (UIFrance.activeSelf == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
+            UISoviet.SetActive(true);
+            mainMenuUI.SetActive(false);
+        }
+        
     }
 }
