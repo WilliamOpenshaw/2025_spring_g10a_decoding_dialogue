@@ -1,19 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerHealthDisplay : MonoBehaviour
 {
     [Header("UI References")]
     [SerializeField] private Slider healthSlider;
 
     [Header("Player References")]
-    [SerializeField] private GameObject playerObject; // Drag your player GameObject here
+    [SerializeField] public GameObject playerObject; // Drag your player GameObject here
     private Health playerHealth;
     void Awake()
     {
         if (playerObject == null)
         {
-            Debug.LogError("Player GameObject not assigned to HealthDisplay!");
+            //Debug.LogError("Player GameObject not assigned to HealthDisplay!");
+            Debug.Log("Player GameObject not assigned to HealthDisplay!");
             enabled = false; // Disable the script if no player is assigned
             return;
         }
