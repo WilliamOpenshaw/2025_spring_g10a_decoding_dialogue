@@ -4,6 +4,7 @@ using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
+    public Vector3 teleportLocation = new Vector3(0, 0, 0);
     public float MaxHealth = 3f;
 
     private float currentHealth; // Use a private backing field
@@ -60,6 +61,18 @@ public class Health : MonoBehaviour
     public void Die()
     {
         Debug.Log($"{gameObject.name} has died!");
-        Destroy(gameObject); // Example: destroy the object
+        if (gameObject.tag == "Player")
+        {
+            GetComponent<Animator>().SetTrigger("die");
+        }
+        else
+        {
+            gameObject.active = false;
+        }
+    }
+    public void MoveRespawn()
+    {
+        Heal(MaxHealth);
+        transform.position = teleportLocation;
     }
 }

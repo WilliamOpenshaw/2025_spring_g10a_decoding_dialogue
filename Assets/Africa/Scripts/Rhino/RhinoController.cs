@@ -14,6 +14,7 @@ public class RhinoController : MonoBehaviour
     private RhinoState currentState = RhinoState.Idle;
 
     [SerializeField] private float moveSpeed = 4f; // Standard move speed for chase and wander
+    [SerializeField] private float wanderMoveSpeedPercentage = .3f;
     [SerializeField] private Collider2D biteLeft; // Likely the final attack collider
     [SerializeField] private Collider2D biteRight; // Likely the final attack collider
     [SerializeField] private Collider2D WalkingAttackLeft; // Potential collider for attacks during movement
@@ -133,7 +134,7 @@ public class RhinoController : MonoBehaviour
         wanderTimer += Time.deltaTime;
         if (wanderTimer >= wanderDuration)
         {
-            wanderDirection = Random.insideUnitCircle.normalized;
+            wanderDirection = Random.insideUnitCircle.normalized * wanderMoveSpeedPercentage;
             // Occasionally return to idle state
             if (Random.Range(0, 3) == 2)
             { // Slightly less likely to idle than elephant/hyena

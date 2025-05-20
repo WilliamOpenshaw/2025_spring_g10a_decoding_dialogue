@@ -14,6 +14,7 @@ public class HyenaController : MonoBehaviour
     private HyenaState currentState = HyenaState.Idle;
 
     [SerializeField] private float moveSpeed = 4f;
+    [SerializeField] private float wanderMoveSpeedPercentage = .3f;
     [SerializeField] private Collider2D biteLeft;
     [SerializeField] private Collider2D biteRight;
     [SerializeField] private float idleDuration = 2f;
@@ -108,7 +109,7 @@ public class HyenaController : MonoBehaviour
         wanderTimer += Time.deltaTime;
         if (wanderTimer >= wanderDuration)
         {
-            wanderDirection = Random.insideUnitCircle.normalized;
+            wanderDirection = Random.insideUnitCircle.normalized * wanderMoveSpeedPercentage;
             wanderTimer = 0f;
             if (Random.Range(0, 5) == 4) {
                 currentState = HyenaState.Idle;

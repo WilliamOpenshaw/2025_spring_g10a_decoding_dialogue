@@ -59,19 +59,19 @@ public class GavinPlayerController : MonoBehaviour
         // Only process input if not attacking
         // Health myHealth = this.gameObject.GetComponent<Health>();
         // myHealth.TakeDamage(.01f);
-        if (!isAttacking)
-        {
+        // if (!isAttacking)
+        // {
             PlayerInput();
-        }
+        // }
         
     }
 
     private void FixedUpdate() {
         // Only move if not attacking
-        if (!isAttacking)
-        {
+        // if (!isAttacking)
+        // {
             Move();
-        }
+        // }
     }
 
     private void PlayerInput() {
@@ -141,6 +141,10 @@ public class GavinPlayerController : MonoBehaviour
 
             enemyHealth.TakeDamage(.5f);
             Debug.Log("Damage dealt to " + other.name);
+        }
+        if (other.gameObject.active == false) {
+            Health myHealth = gameObject.GetComponent<Health>();
+            myHealth.Heal(myHealth.MaxHealth);
         }
 
     }

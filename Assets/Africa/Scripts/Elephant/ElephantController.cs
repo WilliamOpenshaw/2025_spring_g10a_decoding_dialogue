@@ -14,6 +14,7 @@ public class ElephantController : MonoBehaviour
     private ElephantState currentState = ElephantState.Idle;
 
     [SerializeField] private float moveSpeed = 4f;
+    [SerializeField] private float wanderMoveSpeedPercentage = .3f;
     [SerializeField] private Collider2D biteLeft;
     [SerializeField] private Collider2D biteRight;
     [SerializeField] private Collider2D colliderLeft;
@@ -130,7 +131,7 @@ public class ElephantController : MonoBehaviour
         wanderTimer += Time.deltaTime;
         if (wanderTimer >= wanderDuration)
         {
-            wanderDirection = Random.insideUnitCircle.normalized;
+            wanderDirection = Random.insideUnitCircle.normalized * wanderMoveSpeedPercentage;
              // Occasionally return to idle state
             if (Random.Range(0, 4) == 3) {
                 currentState = ElephantState.Idle;
