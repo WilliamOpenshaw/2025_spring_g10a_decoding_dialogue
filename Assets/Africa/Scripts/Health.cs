@@ -72,7 +72,7 @@ public class Health : MonoBehaviour
     }
     public void MoveRespawn()
     {
-        Heal(MaxHealth);
+        Heal(3.0f);
         transform.position = teleportLocation;
     }
 }
