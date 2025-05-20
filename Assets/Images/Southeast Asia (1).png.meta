@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: a2cee077c9d2e1c4ca69f0aa894603a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -365554905529349227
+    second: Southeast Asia (1)_0
+  - first:
+      213: -132817397039132357
+    second: Southeast Asia (1)_1
+  - first:
+      213: -7431863750380921322
+    second: Southeast Asia (1)_2
+  - first:
+      213: 3340257518245609194
+    second: Southeast Asia (1)_3
+  - first:
+      213: 898000570214467899
+    second: Southeast Asia (1)_4
+  - first:
+      213: -7696066993848929405
+    second: Southeast Asia (1)_5
+  - first:
+      213: 7987877319221073159
+    second: Southeast Asia (1)_6
+  - first:
+      213: -5793270157997772029
+    second: Southeast Asia (1)_7
+  - first:
+      213: 5726632403440667784
+    second: Southeast Asia (1)_8
+  - first:
+      213: -3314695645430335564
+    second: Southeast Asia (1)_9
+  - first:
+      213: 6279766910734236909
+    second: Southeast Asia (1)_10
+  - first:
+      213: -34732452310667743
+    second: Southeast Asia (1)_11
+  - first:
+      213: 7238240819696041055
+    second: Southeast Asia (1)_12
+  - first:
+      213: -1161180269765502003
+    second: Southeast Asia (1)_13
+  - first:
+      213: 4420327017510434732
+    second: Southeast Asia (1)_14
+  - first:
+      213: 504248030695804645
+    second: Southeast Asia (1)_15
+  - first:
+      213: -1087401737776367080
+    second: Southeast Asia (1)_16
+  - first:
+      213: 638969112717899155
+    second: Southeast Asia (1)_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Southeast Asia (1)_0
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 83
+        width: 585
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b850e00c94deaf0800000000000000
+      internalID: -365554905529349227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_1
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 648
+        width: 115
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b319d75f743282ef0800000000000000
+      internalID: -132817397039132357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_2
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 630
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e51737b47bcd890800000000000000
+      internalID: -7431863750380921322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_3
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 550
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee7b51f38afa5e20800000000000000
+      internalID: 3340257518245609194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_4
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 620
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b394bb3c2c6567c00800000000000000
+      internalID: 898000570214467899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 604
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383b60838d3123590800000000000000
+      internalID: -7696066993848929405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_6
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 532
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7055299a914aade60800000000000000
+      internalID: 7987877319221073159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 563
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303fba04c7b2a9fa0800000000000000
+      internalID: -5793270157997772029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 575
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c825674d5197f40800000000000000
+      internalID: 5726632403440667784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 197
+        width: 341
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7379b5fd5dff1d0800000000000000
+      internalID: -3314695645430335564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_10
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 462
+        width: 124
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decf092dbb6362750800000000000000
+      internalID: 6279766910734236909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 155
+        width: 175
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e28d5c40b948ff0800000000000000
+      internalID: -34732452310667743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 276
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cf6b8fca5637460800000000000000
+      internalID: 7238240819696041055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 74
+        width: 273
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb5f6462b8a2efe0800000000000000
+      internalID: -1161180269765502003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 205
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca775c5a008285d30800000000000000
+      internalID: 4420327017510434732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 205
+        width: 90
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee405c89e27ff600800000000000000
+      internalID: 504248030695804645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_16
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 42
+        width: 175
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a72bb71e5c8e0f0800000000000000
+      internalID: -1087401737776367080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Southeast Asia (1)_17
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 43
+        width: 106
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3953ff9c5031ed800800000000000000
+      internalID: 638969112717899155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Southeast Asia (1)_0: -365554905529349227
+      Southeast Asia (1)_1: -132817397039132357
+      Southeast Asia (1)_10: 6279766910734236909
+      Southeast Asia (1)_11: -34732452310667743
+      Southeast Asia (1)_12: 7238240819696041055
+      Southeast Asia (1)_13: -1161180269765502003
+      Southeast Asia (1)_14: 4420327017510434732
+      Southeast Asia (1)_15: 504248030695804645
+      Southeast Asia (1)_16: -1087401737776367080
+      Southeast Asia (1)_17: 638969112717899155
+      Southeast Asia (1)_2: -7431863750380921322
+      Southeast Asia (1)_3: 3340257518245609194
+      Southeast Asia (1)_4: 898000570214467899
+      Southeast Asia (1)_5: -7696066993848929405
+      Southeast Asia (1)_6: 7987877319221073159
+      Southeast Asia (1)_7: -5793270157997772029
+      Southeast Asia (1)_8: 5726632403440667784
+      Southeast Asia (1)_9: -3314695645430335564
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
