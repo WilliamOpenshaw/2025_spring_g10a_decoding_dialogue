@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Island/fonts island/Noto_Serif_TC/static.meta
 guid: bc8473d682565db45a1650a7f23cd570
 folderAsset: yes
+========
+guid: d7110803f848459498714991afd7cb58
+>>>>>>>> main:Assets/Scenes/Core/user choices export.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
