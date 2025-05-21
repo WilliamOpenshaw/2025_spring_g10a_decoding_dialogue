@@ -9,6 +9,9 @@ public class GavinPlayerController : MonoBehaviour
     [SerializeField] private Collider2D spearTipColliderLeft;
     [SerializeField] private Collider2D spearTipColliderRight;
 
+    // New field for the arrow object
+    [SerializeField] private GameObject arrow;
+
     private PlayerControls playerControls;
     private Vector2 movement;
     private Rigidbody2D rb;
@@ -39,6 +42,12 @@ public class GavinPlayerController : MonoBehaviour
             spearTipColliderRight.enabled = false;
             Debug.Log("Parent: Spear Tip Collider disabled on Awake.");
         }
+
+        // Ensure the arrow is initially inactive
+        if (arrow != null)
+        {
+            arrow.SetActive(false);
+        }
     }
 
     private void OnEnable() {
@@ -63,7 +72,9 @@ public class GavinPlayerController : MonoBehaviour
         // {
             PlayerInput();
         // }
-        
+
+        // Update the arrow's direction
+        UpdateArrowDirection();
     }
 
     private void FixedUpdate() {
@@ -119,7 +130,7 @@ public class GavinPlayerController : MonoBehaviour
                 animator.SetTrigger("AttackLeft"); // Make sure you have an "Attack" trigger in your Animator
 
             }
-           
+
         }
     }
 
@@ -142,18 +153,65 @@ public class GavinPlayerController : MonoBehaviour
             enemyHealth.TakeDamage(.5f);
             Debug.Log("Damage dealt to " + other.name);
         }
-        if (other.gameObject.active == false) {
+        if (other.gameObject.activeSelf == false) // Use activeSelf to check active status
+        {
             Health myHealth = gameObject.GetComponent<Health>();
             myHealth.Heal(myHealth.MaxHealth);
         }
 
     }
 
-    public void ApplyKnockback(float force, Vector2 direction) 
+    public void ApplyKnockback(float force, Vector2 direction)
     {
         Debug.Log("Force knockback called");
         Debug.Log(force);
         Debug.Log(direction);
         rb.AddForce(-direction * force);
+    }
+
+    // New method to update the arrow's direction
+    private void UpdateArrowDirection()
+    {
+        if (arrow == null) return;
+
+        GameObject nearestEnemy = FindNearestEnemy();
+
+        if (nearestEnemy != null)
+        {
+            arrow.SetActive(true); // Activate the arrow if an enemy is found
+            Vector2 directionToEnemy = (nearestEnemy.transform.position - transform.position).normalized;
+
+            // Calculate the angle in degrees
+            float angle = Mathf.Atan2(directionToEnemy.y, directionToEnemy.x) * Mathf.Rad2Deg;
+
+            // Adjust the rotation based on the arrow's default orientation if needed
+            // For example, if your arrow is facing right in its original sprite/model, you might just use 'angle'
+            // If it's facing up, you might need to subtract 90: angle - 90
+            arrow.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        }
+        else
+        {
+            arrow.SetActive(false); // Deactivate the arrow if no enemy is found
+        }
+    }
+
+    // New method to find the nearest enemy
+    private GameObject FindNearestEnemy()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject nearestEnemy = null;
+        float minDistance = Mathf.Infinity;
+        Vector3 currentPosition = transform.position;
+
+        foreach (GameObject enemy in enemies)
+        {
+            float distanceToEnemy = Vector3.Distance(currentPosition, enemy.transform.position);
+            if (distanceToEnemy < minDistance)
+            {
+                minDistance = distanceToEnemy;
+                nearestEnemy = enemy;
+            }
+        }
+        return nearestEnemy;
     }
 }
