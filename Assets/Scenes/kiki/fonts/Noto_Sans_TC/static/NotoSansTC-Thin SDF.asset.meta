@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/kiki/fonts/Noto_Sans_TC/static/NotoSansTC-Thin SDF.asset.meta
 guid: f19fb6d88b05ad24fa9339a06dbeb5df
 NativeFormatImporter:
+========
+guid: d8a403084caae4bb5a01efff712538b3
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> 799a8ee56924f39469f5054eae218b8fa65a5e4f:Assets/animations/Scenes/Assignments.meta
   externalObjects: {}
   mainObjectFileID: 11400000
   userData: 
