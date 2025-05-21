@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/path of peace/Materials/image 1222.mat.meta
 guid: d92508a60538848e1bc096e0f4b9b952
 NativeFormatImporter:
+========
+guid: 75e8a17ec85a15f47801efad8d223700
+DefaultImporter:
+>>>>>>>> main:Assets/Scenes/kiki/kiki 0.0.5.unity.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 

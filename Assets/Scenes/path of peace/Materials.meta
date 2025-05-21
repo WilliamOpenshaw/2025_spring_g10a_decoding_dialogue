@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/path of peace/Materials.meta
 guid: 281d0816bb1d34471a14b271f167bec1
 folderAsset: yes
+========
+guid: 3a0a623585fe3114688986bab17fef43
+>>>>>>>> main:Assets/Scenes/Island/island 0.2.1.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
