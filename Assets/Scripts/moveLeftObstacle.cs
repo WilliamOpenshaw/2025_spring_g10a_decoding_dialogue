@@ -18,7 +18,7 @@ public class moveLeftObstacle : MonoBehaviour
         }
         else if (gameObject.transform.localPosition.x < -12.4f)
         {
-            gameObject.transform.localPosition = new Vector3(Random.Range(16.0f, 30.0f),
+            gameObject.transform.localPosition = new Vector3(Random.Range(30.0f, 31.0f),
                                                         gameObject.transform.localPosition.y,
                                                         gameObject.transform.localPosition.z);
         }
