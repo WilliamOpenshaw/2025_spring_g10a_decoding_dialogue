@@ -148,6 +148,7 @@ public class GavinPlayerController : MonoBehaviour
         Debug.Log("detected collider");
 
         if (other.CompareTag("Enemy")){
+            transform.Find("AttackEffect").GetComponent<AudioSource>().Play();
             Health enemyHealth = other.GetComponent<Health>();
 
             enemyHealth.TakeDamage(.5f);
@@ -211,6 +212,46 @@ public class GavinPlayerController : MonoBehaviour
                 minDistance = distanceToEnemy;
                 nearestEnemy = enemy;
             }
+        }
+        if (minDistance < 10)
+        {
+            if (!transform.Find(nearestEnemy.name).GetComponent<AudioSource>().isPlaying)
+            {
+                AudioSource[] allAudioSources = FindObjectsOfType<AudioSource>();
+                foreach (AudioSource audioSource in allAudioSources)
+                {
+                    if (audioSource.isPlaying)
+                    {
+                        audioSource.Stop();
+                    }
+                }
+                transform.Find(nearestEnemy.name).GetComponent<AudioSource>().Play();
+            }
+        }
+        else
+        {
+            if (!transform.Find("bgm").GetComponent<AudioSource>().isPlaying)
+            {
+                AudioSource[] allAudioSources = FindObjectsOfType<AudioSource>();
+                foreach (AudioSource audioSource in allAudioSources)
+                {
+                    if (audioSource.isPlaying)
+                    {
+                        audioSource.Stop();
+                    }
+                }
+                transform.Find("bgm").GetComponent<AudioSource>().Play();
+            }
+        }
+        if (nearestEnemy == null)
+        {
+            GameObject npc = GameObject.FindGameObjectWithTag("NPC");
+            float distanceToEnemy = Vector3.Distance(currentPosition, npc.transform.position);
+            if (distanceToEnemy < minDistance)
+            {
+                minDistance = distanceToEnemy;
+                nearestEnemy = npc;
+            } 
         }
         return nearestEnemy;
     }

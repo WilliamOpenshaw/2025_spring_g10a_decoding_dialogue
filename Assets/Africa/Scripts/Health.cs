@@ -43,6 +43,10 @@ public class Health : MonoBehaviour
         // Modify the health directly and then update the CurrentHealth property
         // This way, the setter is called and the event is invoked
         CurrentHealth -= damageAmount;
+        // if (gameObject.tag == "Player")
+        // {
+        //     transform.Find("AttamckEffect").GetComponent<AudioSource>().Play();
+        // }
 
         if (CurrentHealth <= 0.1)
         {
@@ -69,7 +73,7 @@ public class Health : MonoBehaviour
             {
                 Debug.Log("mc ded");
                 GetComponent<Animator>().SetTrigger("die");
-                respawnTimer = Time.time;                
+                respawnTimer = Time.time; 
             }
         }
         else
