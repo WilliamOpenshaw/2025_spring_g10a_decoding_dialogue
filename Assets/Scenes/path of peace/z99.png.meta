@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: afb1af08124824415a78c47b11ebf229
+guid: ad5ffb59d71cc4903bd9c1e03a8b5492
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8923233780527562873
-    second: Ali_0
+      213: -5870773168454474252
+    second: z99_0
+  - first:
+      213: -7551659650761639596
+    second: z99_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +99,49 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ali_0
+      name: z99_0
       rect:
         serializedVersion: 2
-        x: 289
-        y: 39
-        width: 448
-        height: 946
+        x: 22
+        y: 324
+        width: 32
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78f73e7672e4a2480800000000000000
-      internalID: -8923233780527562873
+      spriteID: 4f5606178e2d68ea0800000000000000
+      internalID: -5870773168454474252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z99_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 48
+        width: 944
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459b3bbde8d133790800000000000000
+      internalID: -7551659650761639596
       vertices: []
       indices: 
       edges: []
@@ -138,23 +150,16 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51db77dca5b7143ee9e91f0b590dba89
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: d1b7da7a9c849418d96a43f090be5eb9, type: 3}
-      name: walk2
-    - texture: {fileID: 2800000, guid: 181b93b2b6bc344798e7f7b868d49b8c, type: 3}
-      name: walk3
-    - texture: {fileID: 2800000, guid: 6fa34707756914ed58a2490dbaf74c6d, type: 3}
-      name: idle
+    secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Ali_0: -8923233780527562873
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

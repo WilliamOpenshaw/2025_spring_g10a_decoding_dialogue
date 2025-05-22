@@ -7,6 +7,6 @@ public class replayPathOfPeace : MonoBehaviour
     
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("pop 0.0.8");
     }
 }
