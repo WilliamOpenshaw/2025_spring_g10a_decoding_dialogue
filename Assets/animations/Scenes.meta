@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Island/isalnd 0.2.8.unity.meta
+guid: ba770afb2c89d7f4c9c7d46d7f999b38
+========
 guid: da9e9e7061ffb4fda9ad0cd037dd3d50
 folderAsset: yes
+>>>>>>>> 799a8ee56924f39469f5054eae218b8fa65a5e4f:Assets/animations/Scenes.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
