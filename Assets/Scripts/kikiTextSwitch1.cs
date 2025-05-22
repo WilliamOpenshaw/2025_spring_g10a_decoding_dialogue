@@ -22,9 +22,37 @@ public class kikiTextSwitch1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A) || gamepad.aButton.wasPressedThisFrame)
+        if (Gamepad.current == null)
         {
-            if(text1.activeSelf)
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                if (text1.activeSelf)
+                {
+                    text1.SetActive(false);
+                    text2.SetActive(true);
+                    text3.SetActive(false);
+                }
+                else if (text2.activeSelf)
+                {
+                    text1.SetActive(false);
+                    text2.SetActive(false);
+                    text3.SetActive(true);
+                }
+                else if (text3.activeSelf)
+                {
+                    text1.SetActive(true);
+                    text2.SetActive(false);
+                    text3.SetActive(false);
+
+                    gettingStarted.SetActive(true);
+
+                    mainMenu.SetActive(false);
+                }
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.A) || gamepad.aButton.wasPressedThisFrame)
+        {
+            if (text1.activeSelf)
             {
                 text1.SetActive(false);
                 text2.SetActive(true);
