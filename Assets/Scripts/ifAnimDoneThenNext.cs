@@ -5,7 +5,10 @@ public class ifAnimDoneThenNext : MonoBehaviour
     public GameObject animationObject;
     public Animation anim;
 
-    public GameObject chaseGame;
+    //public GameObject chaseGame;
+    //public GameObject chaseGameUI;
+
+    public GameObject afterTakeSpeechbubble;
 
     public bool started;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,8 +27,10 @@ public class ifAnimDoneThenNext : MonoBehaviour
         }
         else if (started == true && anim.isPlaying == false)
         {
-            animationObject.SetActive(false);
-            chaseGame.SetActive(true);
+            //animationObject.SetActive(false);
+            //chaseGame.SetActive(true);
+            //chaseGameUI.SetActive(true);
+            afterTakeSpeechbubble.SetActive(true);
         }
     }
 }

@@ -8,6 +8,6 @@ public class popResetChase : MonoBehaviour
 
     public void ResetChase()
     {
-         SceneManager.LoadScene("pop chasing start 0.0.7");
+         SceneManager.LoadScene("pop chasing start 0.0.8");
     }
 }
