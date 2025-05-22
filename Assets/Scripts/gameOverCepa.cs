@@ -18,7 +18,7 @@ public class gameOverCepa : MonoBehaviour
         // france
         if (UIFrance.activeSelf == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("cepa 0.0.17 -  france fight");
             
             UIFrance.SetActive(true);
             mainMenuUI.SetActive(false);
@@ -26,7 +26,7 @@ public class gameOverCepa : MonoBehaviour
         // germany
         else if (UIGermany.activeSelf == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("cepa 0.0.17 - germany fight");
             
             UIGermany.SetActive(true);
             mainMenuUI.SetActive(false);
@@ -34,7 +34,7 @@ public class gameOverCepa : MonoBehaviour
         // soviet
         else if (UISoviet.activeSelf == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("cepa 0.0.17 - soviet fight");
             
             UISoviet.SetActive(true);
             mainMenuUI.SetActive(false);

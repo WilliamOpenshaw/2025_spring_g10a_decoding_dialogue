@@ -24,7 +24,10 @@ public class playerdetecthit : MonoBehaviour
             Debug.Log(playerHealth.fillAmount);
         }
         // if fillamount is less than or equal to 0, go to game over screen
-        if (playerHealth.fillAmount <= 0 && GameOverUI.activeSelf == false && franceUIEndOfFight.activeSelf == false && germanyUIEndOfFight.activeSelf == false && sovietUIEndOfFight.activeSelf == false)        
+        if (playerHealth.fillAmount <= 0.01    && GameOverUI.activeSelf == false 
+                                            && franceUIEndOfFight.activeSelf == false 
+                                            && germanyUIEndOfFight.activeSelf == false 
+                                            && sovietUIEndOfFight.activeSelf == false)        
         {
             Debug.Log("Game Over");
             GameOverUI.SetActive(true);
