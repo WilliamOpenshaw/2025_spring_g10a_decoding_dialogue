@@ -6,6 +6,7 @@ public class AfricaPressFToTalk : MonoBehaviour
     public bool canStartConversation;
     public GameObject convo1;
     public GameObject convo2;
+    public GameObject convo3;
     public GameObject line0;
     public GameObject line1;
     public GameObject line2;
@@ -69,12 +70,23 @@ public class AfricaPressFToTalk : MonoBehaviour
         }
 
         // Conversation 2
-        if (Input.GetKeyDown(KeyCode.F) &&
+        else if (Input.GetKeyDown(KeyCode.F) &&
             canStartConversation == true &&
             conversationNumber == 2)
         {
             convo2.SetActive(true);
+            AddOneToConversation();
         }
+
+        else if (Input.GetKeyDown(KeyCode.F) &&
+            canStartConversation == true &&
+            conversationNumber == 3 &&
+            speechBubble.activeSelf == true &&
+            gotAllItems == true)
+        {
+            convo3.SetActive(true);
+        }
+
 
 
 
@@ -82,7 +94,7 @@ public class AfricaPressFToTalk : MonoBehaviour
     // when the GameObjects collider arrange for this GameObject to travel to the left of the screen
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player") && conversationNumber != 3)
+        if (col.CompareTag("Player"))
         {
             if (conversationNumber < 3)
             {
