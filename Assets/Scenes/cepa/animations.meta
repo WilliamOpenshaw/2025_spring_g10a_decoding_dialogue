@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/cepa/animations.meta
 guid: a707baa4eaf6ad74b979f2c5ae4a04b2
 folderAsset: yes
+========
+guid: 18fc7b4a11cc8734d983c883ef76797b
+>>>>>>>> main:Assets/Scenes/Core/map 0.2.3 user choice package.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
