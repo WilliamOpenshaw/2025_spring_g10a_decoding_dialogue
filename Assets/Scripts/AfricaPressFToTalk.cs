@@ -6,6 +6,7 @@ public class AfricaPressFToTalk : MonoBehaviour
     public bool canStartConversation;
     public GameObject convo1;
     public GameObject convo2;
+    public GameObject convo3;
     public GameObject line0;
     public GameObject line1;
     public GameObject line2;
@@ -65,30 +66,27 @@ public class AfricaPressFToTalk : MonoBehaviour
             line12.SetActive(false);
             line13.SetActive(false);
             line14.SetActive(false);
+            AddOneToConversation();
         }
 
         // Conversation 2
-        if (Input.GetKeyDown(KeyCode.F) &&
+        else if (Input.GetKeyDown(KeyCode.F) &&
             canStartConversation == true &&
             conversationNumber == 2)
         {
             convo2.SetActive(true);
-            line1.SetActive(true);
-            line0.SetActive(true);
-            line1.SetActive(false);
-            line2.SetActive(false);
-            line3.SetActive(false);
-            line4.SetActive(false);
-            line5.SetActive(false);
-            line6.SetActive(false);
-            line7.SetActive(false);
-            line8.SetActive(false);
-            line9.SetActive(false);
-            line10.SetActive(false);
-            line11.SetActive(false);
-            line12.SetActive(false);
-            line13.SetActive(false);
+            AddOneToConversation();
         }
+
+        else if (Input.GetKeyDown(KeyCode.F) &&
+            canStartConversation == true &&
+            conversationNumber == 3 &&
+            speechBubble.activeSelf == true &&
+            gotAllItems == true)
+        {
+            convo3.SetActive(true);
+        }
+
 
 
 
@@ -96,7 +94,7 @@ public class AfricaPressFToTalk : MonoBehaviour
     // when the GameObjects collider arrange for this GameObject to travel to the left of the screen
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player") && conversationNumber != 3)
+        if (col.CompareTag("Player"))
         {
             if (conversationNumber < 3)
             {
