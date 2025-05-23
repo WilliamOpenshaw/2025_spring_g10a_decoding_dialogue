@@ -5,6 +5,7 @@ public class AfricaPressFToTalk : MonoBehaviour
     public GameObject speechBubble;
     public bool canStartConversation;
     public GameObject convo1;
+    public GameObject convo2;
     public GameObject line0;
     public GameObject line1;
     public GameObject line2;
@@ -19,13 +20,25 @@ public class AfricaPressFToTalk : MonoBehaviour
     public GameObject line11;
     public GameObject line12;
     public GameObject line13;
+    public GameObject line14; 
     public int conversationNumber;
+    public bool gotAllItems;
+    public GameObject lionHeart;
+    public GameObject elephantTusk;
+    public GameObject rhinoDust; 
+    public GameObject hyenaFur; 
+    public GameObject lionHeartGOT;
+    public GameObject elephantTuskGOT;
+    public GameObject rhinoDustGOT; 
+    public GameObject hyenaFurGOT; 
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         canStartConversation = false;
         conversationNumber = 1;
+        gotAllItems = false;
     }
 
     // Update is called once per frame
@@ -51,6 +64,7 @@ public class AfricaPressFToTalk : MonoBehaviour
             line11.SetActive(false);
             line12.SetActive(false);
             line13.SetActive(false);
+            line14.SetActive(false);
         }
 
         // Conversation 2
@@ -58,7 +72,7 @@ public class AfricaPressFToTalk : MonoBehaviour
             canStartConversation == true &&
             conversationNumber == 2)
         {
-            convo1.SetActive(true);
+            convo2.SetActive(true);
             line1.SetActive(true);
             line0.SetActive(true);
             line1.SetActive(false);
@@ -75,19 +89,38 @@ public class AfricaPressFToTalk : MonoBehaviour
             line12.SetActive(false);
             line13.SetActive(false);
         }
+
+
+
     }
     // when the GameObjects collider arrange for this GameObject to travel to the left of the screen
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.CompareTag("Player") && conversationNumber != 3)
         {
-            speechBubble.SetActive(true);
+            if (conversationNumber < 3)
+            {
+                speechBubble.SetActive(true);
+            }
+            else if (conversationNumber > 2 && gotAllItems == true)
+            {
+                speechBubble.SetActive(true);
+            }
         }
         canStartConversation = true;
+        if (col.CompareTag("Player") 
+            &&  hyenaFurGOT.activeSelf ==true 
+            &&  lionHeartGOT.activeSelf ==true
+            &&  rhinoDustGOT.activeSelf ==true
+            &&  elephantTuskGOT.activeSelf ==true
+            )
+        {
+            gotAllItems = true;
+        }
     }
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.CompareTag("Player")) 
         {
             speechBubble.SetActive(false);
         }
@@ -97,4 +130,9 @@ public class AfricaPressFToTalk : MonoBehaviour
     {
         conversationNumber += 1;
     }
+
+        
+
+
+        
 }
