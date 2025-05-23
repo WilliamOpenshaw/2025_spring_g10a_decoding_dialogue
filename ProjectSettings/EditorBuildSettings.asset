@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/kiki/kiki 0.0.9.unity
-    guid: 580b11aacae141a469899f1e5efa64b0
+    path: Assets/Scenes/Island/previous/isalnd 0.2.8.unity
+    guid: ff2502aff96b9a4499f16da753243d4c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
