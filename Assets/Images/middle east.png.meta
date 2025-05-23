@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 <<<<<<<< HEAD:Assets/Scenes/cepa/2025PBL Little Prince Body Parts 2.psd.meta
-guid: ac6b93697df8449ada41f2097452c95d
+guid: 7141a2771c74d8444983f1e20e555d63
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -105,6 +105,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -159,11 +172,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< HEAD:Assets/Scenes/cepa/2025PBL Little Prince Body Parts 2.psd.meta
       2025PBL Little Prince Body Parts 2_0: -2904847889800999606
 ========
       360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0: -5220538327198402913
 >>>>>>>> main:Assets/Images/middle east.png.meta
+=======
+      360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0: -5220538327198402913
+>>>>>>> Stashed changes
+=======
+      360_F_605369035_cFkMVhWoPiAdQrXKD3cYe4RtmhQvqcHk-removebg-preview_0: -5220538327198402913
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
