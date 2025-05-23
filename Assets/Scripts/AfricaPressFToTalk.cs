@@ -65,6 +65,7 @@ public class AfricaPressFToTalk : MonoBehaviour
             line12.SetActive(false);
             line13.SetActive(false);
             line14.SetActive(false);
+            AddOneToConversation();
         }
 
         // Conversation 2
@@ -73,21 +74,6 @@ public class AfricaPressFToTalk : MonoBehaviour
             conversationNumber == 2)
         {
             convo2.SetActive(true);
-            line1.SetActive(true);
-            line0.SetActive(true);
-            line1.SetActive(false);
-            line2.SetActive(false);
-            line3.SetActive(false);
-            line4.SetActive(false);
-            line5.SetActive(false);
-            line6.SetActive(false);
-            line7.SetActive(false);
-            line8.SetActive(false);
-            line9.SetActive(false);
-            line10.SetActive(false);
-            line11.SetActive(false);
-            line12.SetActive(false);
-            line13.SetActive(false);
         }
 
 
