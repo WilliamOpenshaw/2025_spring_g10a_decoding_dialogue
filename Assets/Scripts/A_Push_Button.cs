@@ -15,9 +15,24 @@ public class A_Push_Button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gamepad.aButton.wasPressedThisFrame || Input.GetKeyDown(KeyCode.A))
+        if(Gamepad.current == null)
         {
-            gameObject.GetComponent<Button>().onClick.Invoke();
+            if(Input.GetKeyDown(KeyCode.A))
+            {
+                gameObject.GetComponent<Button>().onClick.Invoke();
+            }
+        }
+        else
+        {
+            if(gamepad.aButton.wasPressedThisFrame || Input.GetKeyDown(KeyCode.A))
+            {
+                gameObject.GetComponent<Button>().onClick.Invoke();
+            }
+        }
+       
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            Debug.Log(Gamepad.current);
         }
     }
 }
