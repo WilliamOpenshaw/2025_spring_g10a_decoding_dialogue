@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/cepa/cepa 0.0.12.unity.meta
+guid: 794fd8616cfd2d345916680575ebfc51
+========
 guid: fc3a806daba60e04ea3602e8076b8743
 folderAsset: yes
+>>>>>>>> main:Assets/Scenes/Island/fonts island.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
