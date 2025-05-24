@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Core/map 0.3.1.unity
-    guid: 1d8d573b8b2ad9e4c9ba2c432400a357
+    path: Assets/Scenes/Core/map 0.3.5.unity
+    guid: e940c5fe19b5bb44e9232a5f8817a20f
   - enabled: 1
     path: Assets/Scenes/path of peace/pop 0.0.8.unity
     guid: 59a424913919e4e31b77ce5b639a7a97
@@ -27,5 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/cepa/cepa 0.0.17 - france fight.unity
     guid: ea2622e3f2a0b6840b8158deed04658a
   m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9203fda8e9996ba42a451b929ecc0795, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
