@@ -17,7 +17,7 @@ public class classControls : MonoBehaviour
             Application.Quit();
         }
         // if press question mark the reload current scene
-        if (Input.GetKeyDown(KeyCode.Question))
+        if (Input.GetKeyDown(KeyCode.M))
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }
