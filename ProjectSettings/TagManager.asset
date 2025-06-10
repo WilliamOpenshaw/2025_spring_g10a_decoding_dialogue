@@ -8,7 +8,7 @@ TagManager:
   - Sentence
   - Enemy
   - MC
-  - Obstacle
+  - NPC
   layers:
   - Default
   - TransparentFX
