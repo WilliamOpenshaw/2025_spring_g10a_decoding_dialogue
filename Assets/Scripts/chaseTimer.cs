@@ -18,8 +18,8 @@ public class chaseTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer.fillAmount -= 0.0001f;
-        if (timer.fillAmount <= 0.0001f)
+        timer.fillAmount -= 0.001f;
+        if (timer.fillAmount <= 0.001f)
         {
             giveUpUI.SetActive(true);
             chaseFreeze.SetActive(true);
