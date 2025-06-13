@@ -4,10 +4,11 @@ public class PlayerController2 : MonoBehaviour
 {
     public bool characterCanMove = true;
     public Animator anim;
+    public float speed;
     
 
     //public GameObject 
-    
+
     public SpriteRenderer spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -15,6 +16,7 @@ public class PlayerController2 : MonoBehaviour
         characterCanMove = true;
         anim = gameObject.GetComponent<Animator>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        //speed = 1.0f;
     }
 
     // Update is called once per frame
@@ -22,13 +24,13 @@ public class PlayerController2 : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.D) && characterCanMove == true && gameObject.transform.localPosition.x < 11.0f)
         {
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x + 0.01f,gameObject.transform.position.y,gameObject.transform.position.z);
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x + (0.01f * speed),gameObject.transform.position.y,gameObject.transform.position.z);
             anim.SetBool("isWalking", true);
             spriteRenderer.flipX = false;
         }
         else if(Input.GetKey(KeyCode.A) && characterCanMove == true && gameObject.transform.localPosition.x > -7.6)
         {
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x - 0.01f,gameObject.transform.position.y,gameObject.transform.position.z);
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x - (0.01f * speed),gameObject.transform.position.y,gameObject.transform.position.z);
             anim.SetBool("isWalking", true);
             spriteRenderer.flipX = true;
         }
