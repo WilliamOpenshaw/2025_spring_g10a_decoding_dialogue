@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Core/map 0.4.0.unity
-    guid: f49a7ce77c8fb5446a86c41bdab3beb8
+    path: Assets/Scenes/Core/map 0.4.1.unity
+    guid: 455403aedbb51a843934bb60fa16f9e8
   - enabled: 1
     path: Assets/Scenes/cepa/all class commit  cepa 0.0.17 - soviet fight.unity
     guid: 27859cba22aa4dc4bb61be07df0b5807
