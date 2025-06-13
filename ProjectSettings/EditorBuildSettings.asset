@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Core/map 0.3.7.unity
-    guid: 01c3d52a2f25ae242bd913db3d703f39
+    path: Assets/Scenes/Core/map 0.3.9.unity
+    guid: 37c25b9e1d7ba384fbd613b75fa898ae
   - enabled: 1
     path: Assets/Scenes/path of peace/pop 0.0.8.unity
     guid: 59a424913919e4e31b77ce5b639a7a97
