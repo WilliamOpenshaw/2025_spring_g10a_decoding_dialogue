@@ -45,8 +45,13 @@ PlayerSettings:
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
+=======
+  defaultScreenWidthWeb: 1024
+  defaultScreenHeightWeb: 576
+>>>>>>> Stashed changes
 =======
   defaultScreenWidthWeb: 1024
   defaultScreenHeightWeb: 576
@@ -58,8 +63,13 @@ PlayerSettings:
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   mipStripping: 0
   numberOfMipsStripped: 0
+=======
+  mipStripping: 1
+  numberOfMipsStripped: 1
+>>>>>>> Stashed changes
 =======
   mipStripping: 1
   numberOfMipsStripped: 1
@@ -151,9 +161,12 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   bundleVersion: 1.0
   preloadedAssets: []
 =======
+=======
+>>>>>>> Stashed changes
   bundleVersion: 0.3.6
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
