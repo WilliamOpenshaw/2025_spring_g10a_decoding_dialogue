@@ -4,6 +4,27 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Core/map 0.4.0.unity
+    guid: f49a7ce77c8fb5446a86c41bdab3beb8
+  - enabled: 1
+    path: Assets/Scenes/cepa/all class commit  cepa 0.0.17 - soviet fight.unity
+    guid: 27859cba22aa4dc4bb61be07df0b5807
+  - enabled: 1
+    path: Assets/Scenes/cepa/all class commit cepa 0.0.17 - france fight.unity
+    guid: c1c12eeccbf4cd14eb1407fa373386b4
+  - enabled: 1
+    path: Assets/Scenes/cepa/all class commit cepa 0.0.17 - germany fight.unity
+    guid: 743a3aa41e2bdde49a625c053d6f0a50
+  - enabled: 1
+    path: Assets/Scenes/cepa/all class commit cepa 0.0.17 - main menu.unity
+    guid: ab036b9cc98cda64994c2bfac1fa2285
+  - enabled: 1
+    path: Assets/Scenes/path of peace/all class commit  pop chasing start 0.0.8.unity
+    guid: 6124e14437535a641842ca47adb964d1
+  - enabled: 1
+    path: Assets/Scenes/path of peace/pop chasing start 0.0.8.unity
+    guid: 2a1f3c4ecd96245d38fd379ef4c45ebf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
