@@ -8,8 +8,13 @@ EditorBuildSettings:
   - enabled: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     path: Assets/Scenes/Core/map 0.3.9.unity
     guid: 37c25b9e1d7ba384fbd613b75fa898ae
+=======
+    path: Assets/Scenes/Core/map 0.3.6.unity
+    guid: 44e6789a223681146b4562d7cb46da47
+>>>>>>> Stashed changes
 =======
     path: Assets/Scenes/Core/map 0.3.6.unity
     guid: 44e6789a223681146b4562d7cb46da47

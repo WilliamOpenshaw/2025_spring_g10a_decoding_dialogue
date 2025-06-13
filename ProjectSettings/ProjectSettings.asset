@@ -46,8 +46,13 @@ PlayerSettings:
   defaultScreenHeight: 1080
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   defaultScreenWidthWeb: 1280
   defaultScreenHeightWeb: 720
+=======
+  defaultScreenWidthWeb: 1024
+  defaultScreenHeightWeb: 576
+>>>>>>> Stashed changes
 =======
   defaultScreenWidthWeb: 1024
   defaultScreenHeightWeb: 576
@@ -152,7 +157,11 @@ PlayerSettings:
   tvOSBundleVersion: 1.0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   bundleVersion: 0.3.9
+=======
+  bundleVersion: 0.3.6
+>>>>>>> Stashed changes
 =======
   bundleVersion: 0.3.6
 >>>>>>> Stashed changes
