@@ -46,8 +46,13 @@ PlayerSettings:
   defaultScreenHeight: 1080
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
+=======
+  defaultScreenWidthWeb: 1024
+  defaultScreenHeightWeb: 576
+>>>>>>> Stashed changes
 =======
   defaultScreenWidthWeb: 1024
   defaultScreenHeightWeb: 576
@@ -64,8 +69,13 @@ PlayerSettings:
   m_MTRendering: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   mipStripping: 0
   numberOfMipsStripped: 0
+=======
+  mipStripping: 1
+  numberOfMipsStripped: 1
+>>>>>>> Stashed changes
 =======
   mipStripping: 1
   numberOfMipsStripped: 1
@@ -162,9 +172,12 @@ PlayerSettings:
   tvOSBundleVersion: 1.0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   bundleVersion: 1.0
   preloadedAssets: []
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   bundleVersion: 0.3.6
